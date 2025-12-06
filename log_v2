@@ -1,0 +1,830 @@
+[17:58:04.851] Cmd: <-1666,686> | Fb: its gonee...
+[17:58:04.903] Cmd: <-1666,0> | Fb: its gonee...
+[17:58:04.954] Cmd: <-1745,686> | Fb: its gonee.s gonee...
+[17:58:05.005] Cmd: <-2098,803> | Fb: its gonee...
+[17:58:05.057] Cmd: <-2411,921> | Fb: its gonee...
+[17:58:05.108] Cmd: <-2490,1000> | Fb: its gonee...
+[17:58:05.160] Cmd: <-2764,1156> | Fb: its gonee...
+[17:58:05.212] Cmd: <-3000,1470> | Fb: its gonee...
+[17:58:05.264] Cmd: <-3078,1588> | Fb: its gonee...
+[17:58:05.315] Cmd: <-2294,1000> | Fb: its gonee...
+[17:58:05.367] Cmd: <-1000,0> | Fb: its gonee.Arduino is ready.
+[17:58:05.444] Cmd: <-607,0> | Fb: Entering Configuration Mode Successful!
+[17:58:05.497] Cmd: <0,0> | Fb: Setting Baudrate Successful!
+[17:58:05.548] Cmd: <0,0> | Fb: CAN Init OK!
+[17:58:05.601] Cmd: <0,0> | Fb: RX ID: 0x80002900Pos: 5.10 deg | Spd: 0 ERPM | Cur: 0.00 A | T: 28C | Err: 0
+[17:58:05.655] Cmd: <0,0> | Fb: RX ID: 0x80002900Pos: 5.10 deg | Spd: 0 ERPM | Cur: 0.00 A | T: 28C | Err: 0
+[17:58:05.739] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -3.40 deg | Spd: 890 ERPM | Cur: 0.32 A | T: 29C | Err: 0
+[17:58:05.825] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -11.30 deg | Spd: 920 ERPM | Cur: 0.39 A | T: 29C | Err: 0
+[17:58:05.907] Cmd: <882,0> | Fb: RX ID: 0x80002968Pos: 6.10 deg | Spd: 830 ERPM | Cur: 0.40 A | T: 29C | Err: 0
+[17:58:05.993] Cmd: <1588,0> | Fb: RX ID: 0x80002968Pos: 1.50 deg | Spd: 190 ERPM | Cur: -0.42 A | T: 29C | Err: 0
+[17:58:06.075] Cmd: <1941,0> | Fb: RX ID: 0x80002968Pos: 11.30 deg | Spd: -350 ERPM | Cur: 0.95 A | T: 29C | Err: 0
+[17:58:06.161] Cmd: <2450,0> | Fb: RX ID: 0x80002968Pos: -5.00 deg | Spd: 150 ERPM | Cur: -0.99 A | T: 29C | Err: 0
+[17:58:06.247] Cmd: <2646,0> | Fb: RX ID: 0x80002968Pos: 11.90 deg | Spd: -160 ERPM | Cur: -1.15 A | T: 29C | Err: 0
+[17:58:06.333] Cmd: <3705,0> | Fb: RX ID: 0x80002968Pos: 12.10 deg | Spd: 0 ERPM | Cur: -0.08 A | T: 29C | Err: 0
+[17:58:06.415] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 12.10 deg | Spd: 0 ERPM | Cur: -0.06 A | T: 29C | Err: 0
+[17:58:06.497] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 12.10 deg | Spd: 0 ERPM | Cur: -0.08 A | T: 29C | Err: 0
+[17:58:06.583] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 12.10 deg | Spd: -10 ERPM | Cur: -0.08 A | T: 29C | Err: 0
+[17:58:06.673] Cmd: <1901,0> | Fb: RX ID: 0x80002968Pos: -11.70 deg | Spd: 1020 ERPM | Cur: -0.22 A | T: 29C | Err: 0
+[17:58:06.755] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -9.60 deg | Spd: 1040 ERPM | Cur: 0.79 A | T: 29C | Err: 0
+[17:58:06.845] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -1.40 deg | Spd: -430 ERPM | Cur: -0.50 A | T: 29C | Err: 0
+[17:58:06.927] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 8.50 deg | Spd: -190 ERPM | Cur: 0.58 A | T: 29C | Err: 0
+[17:58:07.013] Cmd: <-686,0> | Fb: RX ID: 0x80002968Pos: -4.90 deg | Spd: 120 ERPM | Cur: 0.23 A | T: 29C | Err: 0
+[17:58:07.095] Cmd: <-3431,1470> | Fb: RX ID: 0x80002968Pos: 2.20 deg | Spd: -800 ERPM | Cur: 1.11 A | T: 29C | Err: 0
+[17:58:07.181] Cmd: <-5000,1980> | Fb: RX ID: 0x80002968Pos: -4.30 deg | Spd: -500 ERPM | Cur: -0.13 A | T: 29C | Err: 0
+[17:58:07.267] Cmd: <-5000,1705> | Fb: RX ID: 0x80002968Pos: -6.00 deg | Spd: -150 ERPM | Cur: 0.46 A | T: 29C | Err: 0
+[17:58:07.353] Cmd: <-5000,1705> | Fb: RX ID: 0x80002968Pos: 5.80 deg | Spd: -120 ERPM | Cur: 0.41 A | T: 29C | Err: 0
+[17:58:07.439] Cmd: <-5000,1705> | Fb: RX ID: 0x80002968Pos: 1.40 deg | Spd: -1150 ERPM | Cur: 0.21 A | T: 29C | Err: 0
+[17:58:07.521] Cmd: <-5000,1705> | Fb: RX ID: 0x80002968Pos: 7.30 deg | Spd: -160 ERPM | Cur: 0.32 A | T: 29C | Err: 0
+[17:58:07.603] Cmd: <-5000,1509> | Fb: RX ID: 0x80002968Pos: 7.40 deg | Spd: 0 ERPM | Cur: -0.12 A | T: 29C | Err: 0
+[17:58:07.685] Cmd: <-3901,1117> | Fb: RX ID: 0x80002968Pos: 7.40 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 29C | Err: 0
+[17:58:07.771] Cmd: <-3352,882> | Fb: RX ID: 0x80002968Pos: 6.20 deg | Spd: -730 ERPM | Cur: 0.30 A | T: 29C | Err: 0
+[17:58:07.857] Cmd: <-3235,882> | Fb: RX ID: 0x80002968Pos: 4.60 deg | Spd: -550 ERPM | Cur: 1.10 A | T: 29C | Err: 0
+[17:58:07.943] Cmd: <-3235,1156> | Fb: RX ID: 0x80002968Pos: 12.40 deg | Spd: -330 ERPM | Cur: -0.33 A | T: 29C | Err: 0
+[17:58:08.029] Cmd: <-3431,1274> | Fb: RX ID: 0x80002968Pos: -9.40 deg | Spd: -1220 ERPM | Cur: 0.17 A | T: 29C | Err: 0
+[17:58:08.115] Cmd: <-3470,1274> | Fb: RX ID: 0x80002968Pos: -0.90 deg | Spd: -670 ERPM | Cur: 0.82 A | T: 29C | Err: 0
+[17:58:08.201] Cmd: <-3470,1274> | Fb: RX ID: 0x80002968Pos: -8.90 deg | Spd: -660 ERPM | Cur: 0.15 A | T: 29C | Err: 0
+[17:58:08.283] Cmd: <-3470,1039> | Fb: RX ID: 0x80002968Pos: 1.30 deg | Spd: -700 ERPM | Cur: 0.37 A | T: 29C | Err: 0
+[17:58:08.369] Cmd: <-3627,1039> | Fb: RX ID: 0x80002968Pos: 11.10 deg | Spd: -890 ERPM | Cur: 0.19 A | T: 29C | Err: 0
+[17:58:08.455] Cmd: <-3823,1352> | Fb: RX ID: 0x80002968Pos: 3.00 deg | Spd: -870 ERPM | Cur: 0.46 A | T: 29C | Err: 0
+[17:58:08.537] Cmd: <-3823,1117> | Fb: RX ID: 0x80002968Pos: 12.00 deg | Spd: -910 ERPM | Cur: 0.38 A | T: 29C | Err: 0
+[17:58:08.623] Cmd: <-3000,764> | Fb: RX ID: 0x80002968Pos: -4.50 deg | Spd: -890 ERPM | Cur: 0.41 A | T: 29C | Err: 0
+[17:58:08.709] Cmd: <568,0> | Fb: RX ID: 0x80002968Pos: 4.20 deg | Spd: -1050 ERPM | Cur: 0.34 A | T: 29C | Err: 0
+[17:58:08.795] Cmd: <3705,0> | Fb: RX ID: 0x80002968Pos: -4.70 deg | Spd: 1160 ERPM | Cur: 0.08 A | T: 29C | Err: 0
+[17:58:08.881] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 2.80 deg | Spd: -1260 ERPM | Cur: 0.34 A | T: 29C | Err: 0
+[17:58:08.967] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 12.00 deg | Spd: -280 ERPM | Cur: 1.04 A | T: 29C | Err: 0
+[17:58:09.049] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 5.10 deg | Spd: 100 ERPM | Cur: 0.02 A | T: 29C | Err: 0
+[17:58:09.135] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 11.10 deg | Spd: -1110 ERPM | Cur: -0.60 A | T: 29C | Err: 0
+[17:58:09.221] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 5.70 deg | Spd: 60 ERPM | Cur: -0.36 A | T: 29C | Err: 0
+[17:58:09.303] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -8.20 deg | Spd: -70 ERPM | Cur: 0.15 A | T: 29C | Err: 0
+[17:58:09.389] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -10.00 deg | Spd: -130 ERPM | Cur: 0.32 A | T: 29C | Err: 0
+[17:58:09.479] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -11.80 deg | Spd: -120 ERPM | Cur: 0.34 A | T: 29C | Err: 0
+[17:58:09.561] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 12.00 deg | Spd: -120 ERPM | Cur: 0.35 A | T: 29C | Err: 0
+[17:58:09.647] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -1.70 deg | Spd: -140 ERPM | Cur: 0.27 A | T: 29C | Err: 0
+[17:58:09.733] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -3.50 deg | Spd: -140 ERPM | Cur: 0.37 A | T: 29C | Err: 0
+[17:58:09.819] Cmd: <3156,0> | Fb: RX ID: 0x80002968Pos: -5.30 deg | Spd: -150 ERPM | Cur: 0.37 A | T: 29C | Err: 0
+[17:58:09.905] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 6.50 deg | Spd: -130 ERPM | Cur: 0.37 A | T: 29C | Err: 0
+[17:58:09.987] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 4.70 deg | Spd: -150 ERPM | Cur: 0.24 A | T: 29C | Err: 0
+[17:58:10.073] Cmd: <-1352,0> | Fb: RX ID: 0x80002968Pos: 2.90 deg | Spd: -130 ERPM | Cur: 0.30 A | T: 29C | Err: 0
+[17:58:10.159] Cmd: <-1431,0> | Fb: RX ID: 0x80002968Pos: -10.80 deg | Spd: -130 ERPM | Cur: 0.39 A | T: 29C | Err: 0
+[17:58:10.241] Cmd: <-1431,0> | Fb: RX ID: 0x80002968Pos: 2.30 deg | Spd: 70 ERPM | Cur: 0.15 A | T: 29C | Err: 0
+[17:58:10.323] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 2.20 deg | Spd: 0 ERPM | Cur: -0.07 A | T: 29C | Err: 0
+[17:58:10.409] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -0.80 deg | Spd: -1120 ERPM | Cur: 0.85 A | T: 29C | Err: 0
+[17:58:10.495] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -4.20 deg | Spd: 1110 ERPM | Cur: 0.38 A | T: 29C | Err: 0
+[17:58:10.581] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -11.00 deg | Spd: 1130 ERPM | Cur: 0.29 A | T: 29C | Err: 0
+[17:58:10.663] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.17 A | T: 29C | Err: 0
+[17:58:10.749] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.20 A | T: 29C | Err: 0
+[17:58:10.830] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 29C | Err: 0
+[17:58:10.912] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 29C | Err: 0
+[17:58:10.998] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.14 A | T: 29C | Err: 0
+[17:58:11.084] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: -10 ERPM | Cur: -0.12 A | T: 29C | Err: 0
+[17:58:11.166] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.15 A | T: 29C | Err: 0
+[17:58:11.248] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 29C | Err: 0
+[17:58:11.334] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.21 A | T: 29C | Err: 0
+[17:58:11.416] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.16 A | T: 29C | Err: 0
+[17:58:11.498] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.17 A | T: 29C | Err: 0
+[17:58:11.584] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 29C | Err: 0
+[17:58:11.666] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.17 A | T: 29C | Err: 0
+[17:58:11.748] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.17 A | T: 29C | Err: 0
+[17:58:11.834] Cmd: <-1274,0> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.16 A | T: 29C | Err: 0
+[17:58:11.916] Cmd: <-5000,529> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.16 A | T: 29C | Err: 0
+[17:58:11.998] Cmd: <-4411,1902> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 29C | Err: 0
+[17:58:12.084] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: 0 ERPM | Cur: -0.16 A | T: 29C | Err: 0
+[17:58:12.166] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: 8.30 deg | Spd: 1130 ERPM | Cur: 0.50 A | T: 29C | Err: 0
+[17:58:12.252] Cmd: <-5000,1627> | Fb: RX ID: 0x80002968Pos: 5.30 deg | Spd: 1110 ERPM | Cur: 0.63 A | T: 29C | Err: 0
+[17:58:12.334] Cmd: <-5000,1588> | Fb: RX ID: 0x80002968Pos: 7.70 deg | Spd: 760 ERPM | Cur: 0.54 A | T: 29C | Err: 0
+[17:58:12.420] Cmd: <-5000,1588> | Fb: RX ID: 0x80002968Pos: 11.00 deg | Spd: -90 ERPM | Cur: -0.29 A | T: 29C | Err: 0
+[17:58:12.501] Cmd: <-5000,1588> | Fb: RX ID: 0x80002968Pos: -0.60 deg | Spd: 70 ERPM | Cur: 0.19 A | T: 29C | Err: 0
+[17:58:12.587] Cmd: <-5000,1588> | Fb: RX ID: 0x80002968Pos: 1.20 deg | Spd: 130 ERPM | Cur: 0.32 A | T: 29C | Err: 0
+[17:58:12.670] Cmd: <-5000,1588> | Fb: RX ID: 0x80002968Pos: 3.00 deg | Spd: 130 ERPM | Cur: 0.32 A | T: 29C | Err: 0
+[17:58:12.755] Cmd: <-5000,1588> | Fb: RX ID: 0x80002968Pos: -9.00 deg | Spd: 100 ERPM | Cur: 0.14 A | T: 29C | Err: 0
+[17:58:12.837] Cmd: <-5000,1509> | Fb: RX ID: 0x80002968Pos: -7.20 deg | Spd: 120 ERPM | Cur: 0.29 A | T: 29C | Err: 0
+[17:58:12.923] Cmd: <-5000,1509> | Fb: RX ID: 0x80002968Pos: -5.40 deg | Spd: 140 ERPM | Cur: 0.35 A | T: 29C | Err: 0
+[17:58:13.009] Cmd: <-1549,1352> | Fb: RX ID: 0x80002968Pos: -3.60 deg | Spd: 120 ERPM | Cur: 0.19 A | T: 29C | Err: 0
+[17:58:13.091] Cmd: <4999,803> | Fb: RX ID: 0x80002968Pos: 10.10 deg | Spd: 140 ERPM | Cur: 0.29 A | T: 29C | Err: 0
+[17:58:13.177] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 11.90 deg | Spd: 140 ERPM | Cur: 0.42 A | T: 29C | Err: 0
+[17:58:13.263] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -11.90 deg | Spd: 120 ERPM | Cur: 0.20 A | T: 29C | Err: 0
+[17:58:13.345] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 2.80 deg | Spd: -470 ERPM | Cur: -0.90 A | T: 29C | Err: 0
+[17:58:13.431] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -0.10 deg | Spd: 490 ERPM | Cur: 1.08 A | T: 29C | Err: 0
+[17:58:13.517] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -1.60 deg | Spd: -130 ERPM | Cur: 0.28 A | T: 29C | Err: 0
+[17:58:13.603] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: -120 ERPM | Cur: 0.44 A | T: 29C | Err: 0
+[17:58:13.685] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 8.50 deg | Spd: -120 ERPM | Cur: 0.36 A | T: 30C | Err: 0
+[17:58:13.771] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 6.70 deg | Spd: -110 ERPM | Cur: 0.23 A | T: 30C | Err: 0
+[17:58:13.857] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -7.00 deg | Spd: -120 ERPM | Cur: 0.40 A | T: 29C | Err: 0
+[17:58:13.943] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -8.80 deg | Spd: -120 ERPM | Cur: 0.43 A | T: 30C | Err: 0
+[17:58:14.029] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -10.50 deg | Spd: -120 ERPM | Cur: 0.30 A | T: 30C | Err: 0
+[17:58:14.115] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -12.30 deg | Spd: -130 ERPM | Cur: 0.22 A | T: 30C | Err: 0
+[17:58:14.201] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -0.40 deg | Spd: -130 ERPM | Cur: 0.40 A | T: 30C | Err: 0
+[17:58:14.287] Cmd: <1509,0> | Fb: RX ID: 0x80002968Pos: -2.20 deg | Spd: -120 ERPM | Cur: 0.37 A | T: 30C | Err: 0
+[17:58:14.369] Cmd: <-1431,0> | Fb: RX ID: 0x80002968Pos: -4.10 deg | Spd: -120 ERPM | Cur: 0.22 A | T: 30C | Err: 0
+[17:58:14.455] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 7.80 deg | Spd: -140 ERPM | Cur: 0.30 A | T: 30C | Err: 0
+[17:58:14.541] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 6.00 deg | Spd: -110 ERPM | Cur: 0.34 A | T: 30C | Err: 0
+[17:58:14.627] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -0.60 deg | Spd: -890 ERPM | Cur: -0.03 A | T: 30C | Err: 0
+[17:58:14.713] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 0.20 deg | Spd: 1150 ERPM | Cur: -0.09 A | T: 30C | Err: 0
+[17:58:14.799] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -4.30 deg | Spd: -1030 ERPM | Cur: 0.41 A | T: 30C | Err: 0
+[17:58:14.881] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 110 ERPM | Cur: 0.24 A | T: 30C | Err: 0
+[17:58:14.967] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -0.90 deg | Spd: 110 ERPM | Cur: 0.37 A | T: 30C | Err: 0
+[17:58:15.053] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 130 ERPM | Cur: 0.40 A | T: 30C | Err: 0
+[17:58:15.139] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -10.90 deg | Spd: 110 ERPM | Cur: 0.38 A | T: 30C | Err: 0
+[17:58:15.221] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -9.10 deg | Spd: 110 ERPM | Cur: 0.32 A | T: 30C | Err: 0
+[17:58:15.303] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 4.60 deg | Spd: 150 ERPM | Cur: 0.46 A | T: 30C | Err: 0
+[17:58:15.389] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 6.40 deg | Spd: 120 ERPM | Cur: 0.37 A | T: 30C | Err: 0
+[17:58:15.471] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 8.20 deg | Spd: 120 ERPM | Cur: 0.24 A | T: 30C | Err: 0
+[17:58:15.557] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 10.00 deg | Spd: 110 ERPM | Cur: 0.43 A | T: 30C | Err: 0
+[17:58:15.639] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -1.90 deg | Spd: 120 ERPM | Cur: 0.42 A | T: 30C | Err: 0
+[17:58:15.725] Cmd: <646,0> | Fb: RX ID: 0x80002968Pos: -0.20 deg | Spd: 120 ERPM | Cur: 0.29 A | T: 30C | Err: 0
+[17:58:15.807] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 1.70 deg | Spd: 120 ERPM | Cur: 0.31 A | T: 30C | Err: 0
+[17:58:15.893] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 120 ERPM | Cur: 0.46 A | T: 30C | Err: 0
+[17:58:15.979] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -8.50 deg | Spd: 120 ERPM | Cur: 0.36 A | T: 30C | Err: 0
+[17:58:16.061] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 2.70 deg | Spd: 270 ERPM | Cur: 1.07 A | T: 30C | Err: 0
+[17:58:16.147] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 5.10 deg | Spd: -280 ERPM | Cur: -0.38 A | T: 30C | Err: 0
+[17:58:16.229] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 3.40 deg | Spd: -80 ERPM | Cur: 0.04 A | T: 30C | Err: 0
+[17:58:16.315] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 1.60 deg | Spd: -150 ERPM | Cur: 0.37 A | T: 30C | Err: 0
+[17:58:16.401] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -12.10 deg | Spd: -110 ERPM | Cur: 0.41 A | T: 30C | Err: 0
+[17:58:16.487] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 11.70 deg | Spd: -100 ERPM | Cur: 0.25 A | T: 30C | Err: 0
+[17:58:16.569] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 9.90 deg | Spd: -140 ERPM | Cur: 0.27 A | T: 30C | Err: 0
+[17:58:16.655] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -3.80 deg | Spd: -110 ERPM | Cur: 0.34 A | T: 30C | Err: 0
+[17:58:16.741] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -5.60 deg | Spd: -120 ERPM | Cur: 0.31 A | T: 30C | Err: 0
+[17:58:16.827] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -7.40 deg | Spd: -130 ERPM | Cur: 0.24 A | T: 30C | Err: 0
+[17:58:16.913] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -9.20 deg | Spd: -160 ERPM | Cur: 0.40 A | T: 30C | Err: 0
+[17:58:16.995] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 2.70 deg | Spd: -110 ERPM | Cur: 0.28 A | T: 30C | Err: 0
+[17:58:17.081] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 0.80 deg | Spd: -130 ERPM | Cur: 0.29 A | T: 30C | Err: 0
+[17:58:17.167] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -1.00 deg | Spd: -150 ERPM | Cur: 0.24 A | T: 30C | Err: 0
+[17:58:17.253] Cmd: <-5000,-607> | Fb: RX ID: 0x80002968Pos: 10.90 deg | Spd: -120 ERPM | Cur: 0.23 A | T: 30C | Err: 0
+[17:58:17.335] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 9.10 deg | Spd: -120 ERPM | Cur: 0.37 A | T: 30C | Err: 0
+[17:58:17.421] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 7.30 deg | Spd: -130 ERPM | Cur: 0.26 A | T: 30C | Err: 0
+[17:58:17.506] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -6.40 deg | Spd: -110 ERPM | Cur: -0.19 A | T: 30C | Err: 0
+[17:58:17.593] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -7.30 deg | Spd: -740 ERPM | Cur: 0.13 A | T: 30C | Err: 0
+[17:58:17.674] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -5.50 deg | Spd: 200 ERPM | Cur: 0.57 A | T: 30C | Err: 0
+[17:58:17.760] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -3.80 deg | Spd: 120 ERPM | Cur: 0.40 A | T: 30C | Err: 0
+[17:58:17.842] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 9.90 deg | Spd: 130 ERPM | Cur: 0.33 A | T: 30C | Err: 0
+[17:58:17.928] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 11.70 deg | Spd: 140 ERPM | Cur: 0.35 A | T: 30C | Err: 0
+[17:58:18.014] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -12.00 deg | Spd: 130 ERPM | Cur: 0.33 A | T: 30C | Err: 0
+[17:58:18.096] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 1.70 deg | Spd: 140 ERPM | Cur: 0.30 A | T: 30C | Err: 0
+[17:58:18.182] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 3.50 deg | Spd: 130 ERPM | Cur: 0.44 A | T: 30C | Err: 0
+[17:58:18.264] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 5.20 deg | Spd: 100 ERPM | Cur: 0.14 A | T: 30C | Err: 0
+[17:58:18.346] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -6.70 deg | Spd: 110 ERPM | Cur: 0.23 A | T: 30C | Err: 0
+[17:58:18.432] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -4.90 deg | Spd: 130 ERPM | Cur: 0.36 A | T: 30C | Err: 0
+[17:58:18.518] Cmd: <-2215,0> | Fb: RX ID: 0x80002968Pos: -3.10 deg | Spd: 110 ERPM | Cur: 0.20 A | T: 30C | Err: 0
+[17:58:18.600] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 10.60 deg | Spd: 120 ERPM | Cur: 0.15 A | T: 30C | Err: 0
+[17:58:18.686] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 12.40 deg | Spd: 130 ERPM | Cur: 0.45 A | T: 30C | Err: 0
+[17:58:18.772] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -11.40 deg | Spd: 100 ERPM | Cur: 0.28 A | T: 30C | Err: 0
+[17:58:18.854] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 2.30 deg | Spd: 120 ERPM | Cur: -0.18 A | T: 30C | Err: 0
+[17:58:18.940] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -6.30 deg | Spd: 840 ERPM | Cur: 0.37 A | T: 30C | Err: 0
+[17:58:19.022] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -8.90 deg | Spd: -80 ERPM | Cur: 0.27 A | T: 30C | Err: 0
+[17:58:19.112] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -10.70 deg | Spd: -130 ERPM | Cur: 0.26 A | T: 30C | Err: 0
+[17:58:19.194] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 1.20 deg | Spd: -130 ERPM | Cur: 0.25 A | T: 30C | Err: 0
+[17:58:19.280] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -0.60 deg | Spd: -130 ERPM | Cur: 0.38 A | T: 30C | Err: 0
+[17:58:19.366] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -2.40 deg | Spd: -130 ERPM | Cur: 0.31 A | T: 30C | Err: 0
+[17:58:19.448] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 9.50 deg | Spd: -140 ERPM | Cur: 0.23 A | T: 30C | Err: 0
+[17:58:19.534] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 7.70 deg | Spd: -120 ERPM | Cur: 0.35 A | T: 30C | Err: 0
+[17:58:19.620] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 5.90 deg | Spd: -130 ERPM | Cur: 0.40 A | T: 30C | Err: 0
+[17:58:19.706] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -7.80 deg | Spd: -140 ERPM | Cur: 0.37 A | T: 30C | Err: 0
+[17:58:19.788] Cmd: <3901,0> | Fb: RX ID: 0x80002968Pos: -9.60 deg | Spd: -130 ERPM | Cur: 0.33 A | T: 30C | Err: 0
+[17:58:19.874] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -11.40 deg | Spd: -110 ERPM | Cur: 0.39 A | T: 30C | Err: 0
+[17:58:19.960] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 12.40 deg | Spd: -110 ERPM | Cur: 0.23 A | T: 30C | Err: 0
+[17:58:20.046] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -1.30 deg | Spd: -150 ERPM | Cur: 0.26 A | T: 30C | Err: 0
+[17:58:20.132] Cmd: <1823,0> | Fb: RX ID: 0x80002968Pos: -4.40 deg | Spd: -810 ERPM | Cur: 0.98 A | T: 30C | Err: 0
+[17:58:20.218] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 4.20 deg | Spd: -1160 ERPM | Cur: 0.78 A | T: 30C | Err: 0
+[17:58:20.300] Cmd: <-4098,0> | Fb: RX ID: 0x80002968Pos: -8.00 deg | Spd: 150 ERPM | Cur: 0.27 A | T: 30C | Err: 0
+[17:58:20.386] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -6.20 deg | Spd: 100 ERPM | Cur: 0.27 A | T: 30C | Err: 0
+[17:58:20.472] Cmd: <4725,0> | Fb: RX ID: 0x80002968Pos: 3.10 deg | Spd: -770 ERPM | Cur: 0.35 A | T: 30C | Err: 0
+[17:58:20.554] Cmd: <2843,0> | Fb: RX ID: 0x80002968Pos: 7.40 deg | Spd: -770 ERPM | Cur: 0.96 A | T: 30C | Err: 0
+[17:58:20.640] Cmd: <-5000,-803> | Fb: RX ID: 0x80002968Pos: 3.30 deg | Spd: -970 ERPM | Cur: 0.58 A | T: 30C | Err: 0
+[17:58:20.726] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.20 deg | Spd: -320 ERPM | Cur: 0.95 A | T: 30C | Err: 0
+[17:58:20.812] Cmd: <3980,0> | Fb: RX ID: 0x80002968Pos: 0.00 deg | Spd: -750 ERPM | Cur: -1.16 A | T: 30C | Err: 0
+[17:58:20.894] Cmd: <-5000,-1274> | Fb: RX ID: 0x80002968Pos: 10.10 deg | Spd: -180 ERPM | Cur: 1.17 A | T: 30C | Err: 0
+[17:58:20.980] Cmd: <1313,0> | Fb: RX ID: 0x80002968Pos: -6.60 deg | Spd: 380 ERPM | Cur: 0.17 A | T: 30C | Err: 0
+[17:58:21.066] Cmd: <1627,0> | Fb: RX ID: 0x80002968Pos: 3.30 deg | Spd: -140 ERPM | Cur: -0.16 A | T: 30C | Err: 0
+[17:58:21.148] Cmd: <-5000,-725> | Fb: RX ID: 0x80002968Pos: 3.60 deg | Spd: 750 ERPM | Cur: 0.27 A | T: 30C | Err: 0
+[17:58:21.234] Cmd: <1901,0> | Fb: RX ID: 0x80002968Pos: -6.10 deg | Spd: 190 ERPM | Cur: -1.09 A | T: 30C | Err: 0
+[17:58:21.320] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 5.50 deg | Spd: -650 ERPM | Cur: 0.93 A | T: 30C | Err: 0
+[17:58:21.402] Cmd: <-1156,-686> | Fb: RX ID: 0x80002968Pos: 8.40 deg | Spd: -1180 ERPM | Cur: 0.95 A | T: 30C | Err: 0
+[17:58:21.488] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -11.90 deg | Spd: 770 ERPM | Cur: 0.69 A | T: 30C | Err: 0
+[17:58:21.574] Cmd: <-5000,-2097> | Fb: RX ID: 0x80002968Pos: -2.90 deg | Spd: -1110 ERPM | Cur: 1.00 A | T: 30C | Err: 0
+[17:58:21.656] Cmd: <960,0> | Fb: RX ID: 0x80002968Pos: 1.80 deg | Spd: 0 ERPM | Cur: 0.17 A | T: 30C | Err: 0
+[17:58:21.742] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 0.90 deg | Spd: 910 ERPM | Cur: -0.88 A | T: 30C | Err: 0
+[17:58:21.823] Cmd: <-3941,-1078> | Fb: RX ID: 0x80002968Pos: 1.60 deg | Spd: -240 ERPM | Cur: 0.17 A | T: 30C | Err: 0
+[17:58:21.914] Cmd: <4686,1392> | Fb: RX ID: 0x80002968Pos: -12.50 deg | Spd: 1200 ERPM | Cur: -0.72 A | T: 30C | Err: 0
+[17:58:22.000] Cmd: <-3901,-1548> | Fb: RX ID: 0x80002968Pos: 2.00 deg | Spd: -250 ERPM | Cur: -0.42 A | T: 30C | Err: 0
+[17:58:22.081] Cmd: <4921,803> | Fb: RX ID: 0x80002968Pos: 4.90 deg | Spd: 350 ERPM | Cur: 1.15 A | T: 30C | Err: 0
+[17:58:22.167] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -1.60 deg | Spd: -1270 ERPM | Cur: 0.19 A | T: 30C | Err: 0
+[17:58:22.258] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.80 deg | Spd: -1140 ERPM | Cur: -0.63 A | T: 30C | Err: 0
+[17:58:22.340] Cmd: <-1823,0> | Fb: RX ID: 0x80002968Pos: 4.20 deg | Spd: 870 ERPM | Cur: 0.53 A | T: 30C | Err: 0
+[17:58:22.426] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -6.80 deg | Spd: -480 ERPM | Cur: 0.39 A | T: 30C | Err: 0
+[17:58:22.507] Cmd: <1627,0> | Fb: RX ID: 0x80002968Pos: 7.00 deg | Spd: 20 ERPM | Cur: -0.15 A | T: 30C | Err: 0
+[17:58:22.589] Cmd: <-5000,-882> | Fb: RX ID: 0x80002968Pos: 7.00 deg | Spd: 0 ERPM | Cur: 0.23 A | T: 30C | Err: 0
+[17:58:22.671] Cmd: <3784,1117> | Fb: RX ID: 0x80002968Pos: 4.60 deg | Spd: 710 ERPM | Cur: 0.32 A | T: 30C | Err: 0
+[17:58:22.757] Cmd: <-4019,-1078> | Fb: RX ID: 0x80002968Pos: -11.00 deg | Spd: 0 ERPM | Cur: -0.10 A | T: 30C | Err: 0
+[17:58:22.839] Cmd: <882,0> | Fb: RX ID: 0x80002968Pos: 4.40 deg | Spd: 340 ERPM | Cur: 0.06 A | T: 30C | Err: 0
+[17:58:22.925] Cmd: <-2019,-607> | Fb: RX ID: 0x80002968Pos: 5.80 deg | Spd: 980 ERPM | Cur: 0.31 A | T: 30C | Err: 0
+[17:58:23.011] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -5.70 deg | Spd: -1210 ERPM | Cur: 0.25 A | T: 30C | Err: 0
+[17:58:23.097] Cmd: <1941,0> | Fb: RX ID: 0x80002968Pos: 2.00 deg | Spd: -1030 ERPM | Cur: 1.09 A | T: 30C | Err: 0
+[17:58:23.183] Cmd: <1313,0> | Fb: RX ID: 0x80002968Pos: -10.80 deg | Spd: 570 ERPM | Cur: -0.05 A | T: 30C | Err: 0
+[17:58:23.269] Cmd: <1823,0> | Fb: RX ID: 0x80002968Pos: -11.90 deg | Spd: 410 ERPM | Cur: 0.02 A | T: 31C | Err: 0
+[17:58:23.351] Cmd: <-960,-725> | Fb: RX ID: 0x80002968Pos: 9.00 deg | Spd: 700 ERPM | Cur: 0.75 A | T: 31C | Err: 0
+[17:58:23.437] Cmd: <1195,0> | Fb: RX ID: 0x80002968Pos: 11.30 deg | Spd: -500 ERPM | Cur: 0.95 A | T: 31C | Err: 0
+[17:58:23.523] Cmd: <-3823,-1744> | Fb: RX ID: 0x80002968Pos: -6.40 deg | Spd: 1150 ERPM | Cur: 0.65 A | T: 31C | Err: 0
+[17:58:23.609] Cmd: <3862,0> | Fb: RX ID: 0x80002968Pos: -3.30 deg | Spd: 1260 ERPM | Cur: 0.59 A | T: 31C | Err: 0
+[17:58:23.695] Cmd: <-4607,-3156> | Fb: RX ID: 0x80002968Pos: 3.70 deg | Spd: -1090 ERPM | Cur: -0.19 A | T: 31C | Err: 0
+[17:58:23.777] Cmd: <3548,0> | Fb: RX ID: 0x80002968Pos: 2.00 deg | Spd: 990 ERPM | Cur: 1.25 A | T: 31C | Err: 0
+[17:58:23.863] Cmd: <-5000,-2529> | Fb: RX ID: 0x80002968Pos: -0.50 deg | Spd: -800 ERPM | Cur: 0.84 A | T: 31C | Err: 0
+[17:58:23.949] Cmd: <4215,0> | Fb: RX ID: 0x80002968Pos: -9.00 deg | Spd: 340 ERPM | Cur: -0.40 A | T: 31C | Err: 0
+[17:58:24.035] Cmd: <-4607,-3156> | Fb: RX ID: 0x80002968Pos: 3.30 deg | Spd: -400 ERPM | Cur: -0.83 A | T: 31C | Err: 0
+[17:58:24.117] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -9.00 deg | Spd: 290 ERPM | Cur: -1.08 A | T: 31C | Err: 0
+[17:58:24.203] Cmd: <-5000,-2607> | Fb: RX ID: 0x80002968Pos: -0.50 deg | Spd: 760 ERPM | Cur: -0.99 A | T: 31C | Err: 0
+[17:58:24.289] Cmd: <1784,0> | Fb: RX ID: 0x80002968Pos: 9.00 deg | Spd: 1260 ERPM | Cur: 0.57 A | T: 31C | Err: 0
+[17:58:24.371] Cmd: <-2882,-529> | Fb: RX ID: 0x80002968Pos: -5.80 deg | Spd: 280 ERPM | Cur: 0.27 A | T: 31C | Err: 0
+[17:58:24.457] Cmd: <568,0> | Fb: RX ID: 0x80002968Pos: 11.50 deg | Spd: -220 ERPM | Cur: 1.03 A | T: 31C | Err: 0
+[17:58:24.543] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -3.70 deg | Spd: -290 ERPM | Cur: 0.40 A | T: 31C | Err: 0
+[17:58:24.629] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 7.40 deg | Spd: 260 ERPM | Cur: -0.30 A | T: 31C | Err: 0
+[17:58:24.711] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 8.10 deg | Spd: 70 ERPM | Cur: -0.22 A | T: 31C | Err: 0
+[17:58:24.797] Cmd: <-1196,-529> | Fb: RX ID: 0x80002968Pos: 1.70 deg | Spd: 1020 ERPM | Cur: -0.15 A | T: 31C | Err: 0
+[17:58:24.879] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 4.00 deg | Spd: 80 ERPM | Cur: 0.31 A | T: 31C | Err: 0
+[17:58:24.961] Cmd: <-5000,-2019> | Fb: RX ID: 0x80002968Pos: 4.00 deg | Spd: 0 ERPM | Cur: -0.05 A | T: 31C | Err: 0
+[17:58:25.043] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 4.00 deg | Spd: 0 ERPM | Cur: -0.05 A | T: 31C | Err: 0
+[17:58:25.129] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 2.50 deg | Spd: -940 ERPM | Cur: -0.94 A | T: 31C | Err: 0
+[17:58:25.211] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -0.70 deg | Spd: 0 ERPM | Cur: 0.00 A | T: 31C | Err: 0
+[17:58:25.297] Cmd: <1313,0> | Fb: RX ID: 0x80002968Pos: -1.20 deg | Spd: -1010 ERPM | Cur: -0.28 A | T: 31C | Err: 0
+[17:58:25.383] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 5.20 deg | Spd: -330 ERPM | Cur: -0.52 A | T: 31C | Err: 0
+[17:58:25.465] Cmd: <-5000,-686> | Fb: RX ID: 0x80002968Pos: 5.40 deg | Spd: 0 ERPM | Cur: -0.01 A | T: 31C | Err: 0
+[17:58:25.547] Cmd: <1195,0> | Fb: RX ID: 0x80002968Pos: 5.40 deg | Spd: 0 ERPM | Cur: -0.04 A | T: 31C | Err: 0
+[17:58:25.633] Cmd: <-3352,-1431> | Fb: RX ID: 0x80002968Pos: 6.70 deg | Spd: 810 ERPM | Cur: -0.97 A | T: 31C | Err: 0
+[17:58:25.718] Cmd: <-2215,-1195> | Fb: RX ID: 0x80002968Pos: 10.40 deg | Spd: -30 ERPM | Cur: 0.39 A | T: 31C | Err: 0
+[17:58:25.800] Cmd: <3980,0> | Fb: RX ID: 0x80002968Pos: 10.40 deg | Spd: -80 ERPM | Cur: 1.14 A | T: 31C | Err: 0
+[17:58:25.891] Cmd: <-3745,-2294> | Fb: RX ID: 0x80002968Pos: -9.80 deg | Spd: -1140 ERPM | Cur: -0.25 A | T: 31C | Err: 0
+[17:58:25.977] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -10.50 deg | Spd: -680 ERPM | Cur: 0.08 A | T: 31C | Err: 0
+[17:58:26.059] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 1.90 deg | Spd: 100 ERPM | Cur: -0.39 A | T: 31C | Err: 0
+[17:58:26.144] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -2.20 deg | Spd: -110 ERPM | Cur: 0.76 A | T: 31C | Err: 0
+[17:58:26.231] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 11.40 deg | Spd: -860 ERPM | Cur: 1.22 A | T: 31C | Err: 0
+[17:58:26.316] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 3.60 deg | Spd: -960 ERPM | Cur: 0.51 A | T: 31C | Err: 0
+[17:58:26.398] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -9.80 deg | Spd: -130 ERPM | Cur: 0.17 A | T: 31C | Err: 0
+[17:58:26.489] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -11.70 deg | Spd: -130 ERPM | Cur: 0.33 A | T: 31C | Err: 0
+[17:58:26.570] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 12.10 deg | Spd: -120 ERPM | Cur: 0.31 A | T: 31C | Err: 0
+[17:58:26.656] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -1.50 deg | Spd: -120 ERPM | Cur: 0.25 A | T: 31C | Err: 0
+[17:58:26.742] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -3.40 deg | Spd: -130 ERPM | Cur: 0.21 A | T: 31C | Err: 0
+[17:58:26.828] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -5.20 deg | Spd: -110 ERPM | Cur: 0.33 A | T: 31C | Err: 0
+[17:58:26.914] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -7.10 deg | Spd: -120 ERPM | Cur: 0.26 A | T: 31C | Err: 0
+[17:58:26.996] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 4.90 deg | Spd: -110 ERPM | Cur: 0.20 A | T: 31C | Err: 0
+[17:58:27.082] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 3.10 deg | Spd: -130 ERPM | Cur: 0.36 A | T: 31C | Err: 0
+[17:58:27.168] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 1.30 deg | Spd: -130 ERPM | Cur: 0.52 A | T: 31C | Err: 0
+[17:58:27.254] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -12.40 deg | Spd: -110 ERPM | Cur: 0.17 A | T: 31C | Err: 0
+[17:58:27.340] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 11.40 deg | Spd: -130 ERPM | Cur: 0.29 A | T: 31C | Err: 0
+[17:58:27.422] Cmd: <4215,0> | Fb: RX ID: 0x80002968Pos: 9.60 deg | Spd: -150 ERPM | Cur: 0.57 A | T: 31C | Err: 0
+[17:58:27.508] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 7.80 deg | Spd: -130 ERPM | Cur: 0.32 A | T: 31C | Err: 0
+[17:58:27.594] Cmd: <-5000,529> | Fb: RX ID: 0x80002968Pos: -5.90 deg | Spd: -120 ERPM | Cur: 0.23 A | T: 31C | Err: 0
+[17:58:27.676] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -7.70 deg | Spd: -130 ERPM | Cur: 0.46 A | T: 31C | Err: 0
+[17:58:27.766] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -11.30 deg | Spd: -1010 ERPM | Cur: 0.53 A | T: 31C | Err: 0
+[17:58:27.848] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -1.70 deg | Spd: 580 ERPM | Cur: 1.20 A | T: 31C | Err: 0
+[17:58:27.935] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 4.50 deg | Spd: 130 ERPM | Cur: 0.14 A | T: 31C | Err: 0
+[17:58:28.016] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 6.40 deg | Spd: 110 ERPM | Cur: 0.21 A | T: 31C | Err: 0
+[17:58:28.102] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -5.50 deg | Spd: 110 ERPM | Cur: 0.37 A | T: 31C | Err: 0
+[17:58:28.184] Cmd: <686,0> | Fb: RX ID: 0x80002968Pos: -3.70 deg | Spd: 120 ERPM | Cur: 0.34 A | T: 31C | Err: 0
+[17:58:28.270] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -2.00 deg | Spd: 100 ERPM | Cur: 0.24 A | T: 31C | Err: 0
+[17:58:28.352] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 11.70 deg | Spd: 120 ERPM | Cur: 0.28 A | T: 31C | Err: 0
+[17:58:28.438] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -12.10 deg | Spd: 110 ERPM | Cur: 0.30 A | T: 31C | Err: 0
+[17:58:28.524] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -3.80 deg | Spd: 940 ERPM | Cur: 0.66 A | T: 31C | Err: 0
+[17:58:28.606] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 8.00 deg | Spd: -80 ERPM | Cur: 0.06 A | T: 31C | Err: 0
+[17:58:28.692] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -5.80 deg | Spd: -160 ERPM | Cur: 0.48 A | T: 31C | Err: 0
+[17:58:28.778] Cmd: <-5000,1235> | Fb: RX ID: 0x80002968Pos: -7.60 deg | Spd: -130 ERPM | Cur: 0.36 A | T: 31C | Err: 0
+[17:58:28.864] Cmd: <-5000,1392> | Fb: RX ID: 0x80002968Pos: -9.40 deg | Spd: -120 ERPM | Cur: 0.24 A | T: 31C | Err: 0
+[17:58:28.946] Cmd: <-5000,1392> | Fb: RX ID: 0x80002968Pos: 2.50 deg | Spd: -130 ERPM | Cur: 0.29 A | T: 31C | Err: 0
+[17:58:29.032] Cmd: <-5000,1000> | Fb: RX ID: 0x80002968Pos: 0.70 deg | Spd: -130 ERPM | Cur: 0.45 A | T: 31C | Err: 0
+[17:58:29.118] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -10.20 deg | Spd: 110 ERPM | Cur: -1.11 A | T: 31C | Err: 0
+[17:58:29.200] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 3.40 deg | Spd: 220 ERPM | Cur: 0.16 A | T: 31C | Err: 0
+[17:58:29.286] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 5.20 deg | Spd: 130 ERPM | Cur: 0.46 A | T: 31C | Err: 0
+[17:58:29.368] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 7.00 deg | Spd: 120 ERPM | Cur: 0.35 A | T: 31C | Err: 0
+[17:58:29.454] Cmd: <-3078,0> | Fb: RX ID: 0x80002968Pos: -4.90 deg | Spd: 130 ERPM | Cur: -0.13 A | T: 31C | Err: 0
+[17:58:29.540] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: -100 ERPM | Cur: 0.26 A | T: 31C | Err: 0
+[17:58:29.622] Cmd: <-2333,0> | Fb: RX ID: 0x80002968Pos: 8.50 deg | Spd: -120 ERPM | Cur: 0.27 A | T: 31C | Err: 0
+[17:58:29.708] Cmd: <-2607,0> | Fb: RX ID: 0x80002968Pos: -6.40 deg | Spd: 840 ERPM | Cur: -1.20 A | T: 31C | Err: 0
+[17:58:29.794] Cmd: <0,686> | Fb: RX ID: 0x80002968Pos: 8.50 deg | Spd: 130 ERPM | Cur: 0.46 A | T: 31C | Err: 0
+[17:58:29.876] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -1.40 deg | Spd: -530 ERPM | Cur: 0.30 A | T: 31C | Err: 0
+[17:58:29.962] Cmd: <4999,2490> | Fb: RX ID: 0x80002968Pos: 11.20 deg | Spd: -90 ERPM | Cur: -1.21 A | T: 31C | Err: 0
+[17:58:30.048] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 5.60 deg | Spd: -250 ERPM | Cur: 0.01 A | T: 31C | Err: 0
+[17:58:30.134] Cmd: <4999,1823> | Fb: RX ID: 0x80002968Pos: -4.00 deg | Spd: -200 ERPM | Cur: -0.18 A | T: 31C | Err: 0
+[17:58:30.220] Cmd: <-1078,0> | Fb: RX ID: 0x80002968Pos: -11.50 deg | Spd: 700 ERPM | Cur: 0.27 A | T: 31C | Err: 0
+[17:58:30.302] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 2.10 deg | Spd: 360 ERPM | Cur: -0.07 A | T: 31C | Err: 0
+[17:58:30.392] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.20 deg | Spd: -1020 ERPM | Cur: 0.07 A | T: 31C | Err: 0
+[17:58:30.478] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 1.70 deg | Spd: -1170 ERPM | Cur: 0.78 A | T: 31C | Err: 0
+[17:58:30.564] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.70 deg | Spd: -610 ERPM | Cur: -0.79 A | T: 31C | Err: 0
+[17:58:30.650] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.60 deg | Spd: 320 ERPM | Cur: 0.75 A | T: 31C | Err: 0
+[17:58:30.732] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.26 A | T: 31C | Err: 0
+[17:58:30.818] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.25 A | T: 31C | Err: 0
+[17:58:30.904] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.23 A | T: 31C | Err: 0
+[17:58:30.986] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.23 A | T: 31C | Err: 0
+[17:58:31.072] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 31C | Err: 0
+[17:58:31.154] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.25 A | T: 31C | Err: 0
+[17:58:31.240] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 10 ERPM | Cur: -0.24 A | T: 31C | Err: 0
+[17:58:31.326] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.26 A | T: 31C | Err: 0
+[17:58:31.412] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 31C | Err: 0
+[17:58:31.494] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.24 A | T: 31C | Err: 0
+[17:58:31.580] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.21 A | T: 31C | Err: 0
+[17:58:31.662] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 31C | Err: 0
+[17:58:31.748] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.21 A | T: 31C | Err: 0
+[17:58:31.829] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.21 A | T: 31C | Err: 0
+[17:58:31.915] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 31C | Err: 0
+[17:58:32.001] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.20 A | T: 31C | Err: 0
+[17:58:32.083] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.20 A | T: 31C | Err: 0
+[17:58:32.169] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.20 A | T: 31C | Err: 0
+[17:58:32.251] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 31C | Err: 0
+[17:58:32.337] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 31C | Err: 0
+[17:58:32.423] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 31C | Err: 0
+[17:58:32.505] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 31C | Err: 0
+[17:58:32.591] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 31C | Err: 0
+[17:58:32.673] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 32C | Err: 0
+[17:58:32.759] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 32C | Err: 0
+[17:58:32.845] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.21 A | T: 32C | Err: 0
+[17:58:32.927] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 32C | Err: 0
+[17:58:33.013] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 10 ERPM | Cur: -0.20 A | T: 32C | Err: 0
+[17:58:33.099] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 32C | Err: 0
+[17:58:33.181] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 32C | Err: 0
+[17:58:33.267] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 10 ERPM | Cur: -0.20 A | T: 32C | Err: 0
+[17:58:33.353] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 32C | Err: 0
+[17:58:33.439] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 10 ERPM | Cur: -0.23 A | T: 32C | Err: 0
+[17:58:33.521] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.23 A | T: 32C | Err: 0
+[17:58:33.607] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 32C | Err: 0
+[17:58:33.689] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 32C | Err: 0
+[17:58:33.775] Cmd: <1784,0> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 32C | Err: 0
+[17:58:33.861] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 32C | Err: 0
+[17:58:33.943] Cmd: <-5000,-882> | Fb: RX ID: 0x80002968Pos: -12.80 deg | Spd: 0 ERPM | Cur: -0.20 A | T: 32C | Err: 0
+[17:58:34.029] Cmd: <-5000,-803> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 0 ERPM | Cur: -0.24 A | T: 32C | Err: 0
+[17:58:34.115] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -9.00 deg | Spd: -900 ERPM | Cur: 0.13 A | T: 32C | Err: 0
+[17:58:34.197] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -4.10 deg | Spd: 560 ERPM | Cur: 0.65 A | T: 32C | Err: 0
+[17:58:34.283] Cmd: <-1156,0> | Fb: RX ID: 0x80002968Pos: -9.20 deg | Spd: 790 ERPM | Cur: 0.93 A | T: 32C | Err: 0
+[17:58:34.365] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -5.40 deg | Spd: 200 ERPM | Cur: 0.51 A | T: 32C | Err: 0
+[17:58:34.451] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 8.30 deg | Spd: 130 ERPM | Cur: 0.49 A | T: 32C | Err: 0
+[17:58:34.533] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 10.00 deg | Spd: 110 ERPM | Cur: 0.26 A | T: 32C | Err: 0
+[17:58:34.619] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -7.80 deg | Spd: 1160 ERPM | Cur: -0.33 A | T: 32C | Err: 0
+[17:58:34.709] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.50 deg | Spd: -1100 ERPM | Cur: 0.76 A | T: 32C | Err: 0
+[17:58:34.791] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.12 A | T: 32C | Err: 0
+[17:58:34.877] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.08 A | T: 32C | Err: 0
+[17:58:34.963] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.06 A | T: 32C | Err: 0
+[17:58:35.045] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.08 A | T: 32C | Err: 0
+[17:58:35.131] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 10 ERPM | Cur: -0.10 A | T: 32C | Err: 0
+[17:58:35.217] Cmd: <4999,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.08 A | T: 32C | Err: 0
+[17:58:35.299] Cmd: <3039,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.10 A | T: 32C | Err: 0
+[17:58:35.385] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.16 A | T: 32C | Err: 0
+[17:58:35.467] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.13 A | T: 32C | Err: 0
+[17:58:35.552] Cmd: <0,764> | Fb: RX ID: 0x80002968Pos: -10.30 deg | Spd: 0 ERPM | Cur: -0.60 A | T: 32C | Err: 0
+[17:58:35.638] Cmd: <4999,1117> | Fb: RX ID: 0x80002968Pos: 10.60 deg | Spd: 210 ERPM | Cur: -0.45 A | T: 32C | Err: 0
+[17:58:35.720] Cmd: <4999,1156> | Fb: RX ID: 0x80002968Pos: -5.00 deg | Spd: 160 ERPM | Cur: 0.35 A | T: 32C | Err: 0
+[17:58:35.806] Cmd: <-3431,0> | Fb: RX ID: 0x80002968Pos: -5.10 deg | Spd: 10 ERPM | Cur: -0.13 A | T: 32C | Err: 0
+[17:58:35.888] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -5.10 deg | Spd: 0 ERPM | Cur: -0.14 A | T: 32C | Err: 0
+[17:58:35.974] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 0.70 deg | Spd: 560 ERPM | Cur: -0.23 A | T: 32C | Err: 0
+[17:58:36.060] Cmd: <4999,529> | Fb: RX ID: 0x80002968Pos: -1.40 deg | Spd: -110 ERPM | Cur: 0.32 A | T: 32C | Err: 0
+[17:58:36.142] Cmd: <4999,921> | Fb: RX ID: 0x80002968Pos: 9.30 deg | Spd: 160 ERPM | Cur: -0.35 A | T: 32C | Err: 0
+[17:58:36.228] Cmd: <-1941,0> | Fb: RX ID: 0x80002968Pos: -6.50 deg | Spd: 200 ERPM | Cur: 0.71 A | T: 32C | Err: 0
+[17:58:36.314] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -4.60 deg | Spd: 130 ERPM | Cur: 0.27 A | T: 32C | Err: 0
+[17:58:36.396] Cmd: <803,0> | Fb: RX ID: 0x80002968Pos: 9.40 deg | Spd: 950 ERPM | Cur: -0.45 A | T: 32C | Err: 0
+[17:58:36.482] Cmd: <4999,921> | Fb: RX ID: 0x80002968Pos: 1.80 deg | Spd: -70 ERPM | Cur: 0.10 A | T: 32C | Err: 0
+[17:58:36.564] Cmd: <1901,0> | Fb: RX ID: 0x80002968Pos: -9.30 deg | Spd: 220 ERPM | Cur: -0.84 A | T: 32C | Err: 0
+[17:58:36.650] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 11.60 deg | Spd: -20 ERPM | Cur: -0.01 A | T: 32C | Err: 0
+[17:58:36.736] Cmd: <-2137,0> | Fb: RX ID: 0x80002968Pos: -9.60 deg | Spd: -1140 ERPM | Cur: 0.23 A | T: 32C | Err: 0
+[17:58:36.818] Cmd: <4999,1470> | Fb: RX ID: 0x80002968Pos: 0.60 deg | Spd: 0 ERPM | Cur: -0.33 A | T: 32C | Err: 0
+[17:58:36.904] Cmd: <0,529> | Fb: RX ID: 0x80002968Pos: -8.30 deg | Spd: -790 ERPM | Cur: 0.69 A | T: 32C | Err: 0
+[17:58:36.990] Cmd: <-4019,0> | Fb: RX ID: 0x80002968Pos: -5.80 deg | Spd: -1270 ERPM | Cur: 0.34 A | T: 32C | Err: 0
+[17:58:37.076] Cmd: <1509,1470> | Fb: RX ID: 0x80002968Pos: 0.40 deg | Spd: 110 ERPM | Cur: -1.28 A | T: 32C | Err: 0
+[17:58:37.162] Cmd: <4999,1862> | Fb: RX ID: 0x80002968Pos: 1.50 deg | Spd: 320 ERPM | Cur: -1.22 A | T: 32C | Err: 0
+[17:58:37.244] Cmd: <-1549,882> | Fb: RX ID: 0x80002968Pos: 12.30 deg | Spd: 710 ERPM | Cur: -1.07 A | T: 32C | Err: 0
+[17:58:37.330] Cmd: <-2882,1156> | Fb: RX ID: 0x80002968Pos: 8.20 deg | Spd: 940 ERPM | Cur: -0.02 A | T: 32C | Err: 0
+[17:58:37.416] Cmd: <2450,1823> | Fb: RX ID: 0x80002968Pos: -2.50 deg | Spd: 1080 ERPM | Cur: -1.12 A | T: 32C | Err: 0
+[17:58:37.502] Cmd: <3039,2098> | Fb: RX ID: 0x80002968Pos: 1.40 deg | Spd: -620 ERPM | Cur: -0.94 A | T: 32C | Err: 0
+[17:58:37.588] Cmd: <-607,1235> | Fb: RX ID: 0x80002968Pos: -3.00 deg | Spd: 1210 ERPM | Cur: 0.16 A | T: 32C | Err: 0
+[17:58:37.674] Cmd: <-686,1039> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: -710 ERPM | Cur: 1.12 A | T: 32C | Err: 0
+[17:58:37.756] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.80 deg | Spd: 50 ERPM | Cur: 0.05 A | T: 32C | Err: 0
+[17:58:37.842] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -9.30 deg | Spd: 990 ERPM | Cur: 0.45 A | T: 32C | Err: 0
+[17:58:37.924] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 0.40 deg | Spd: -500 ERPM | Cur: 0.24 A | T: 32C | Err: 0
+[17:58:38.010] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: -710 ERPM | Cur: 0.12 A | T: 32C | Err: 0
+[17:58:38.096] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -3.70 deg | Spd: 310 ERPM | Cur: 0.95 A | T: 32C | Err: 0
+[17:58:38.178] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 0 ERPM | Cur: -0.13 A | T: 32C | Err: 0
+[17:58:38.260] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 0 ERPM | Cur: -0.10 A | T: 32C | Err: 0
+[17:58:38.346] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 0 ERPM | Cur: -0.11 A | T: 32C | Err: 0
+[17:58:38.428] Cmd: <686,0> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 0 ERPM | Cur: -0.15 A | T: 32C | Err: 0
+[17:58:38.510] Cmd: <3274,0> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 0 ERPM | Cur: -0.16 A | T: 32C | Err: 0
+[17:58:38.596] Cmd: <2843,0> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 0 ERPM | Cur: -0.13 A | T: 32C | Err: 0
+[17:58:38.678] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 0 ERPM | Cur: -0.14 A | T: 32C | Err: 0
+[17:58:38.764] Cmd: <999,0> | Fb: RX ID: 0x80002968Pos: -2.30 deg | Spd: 690 ERPM | Cur: 0.11 A | T: 32C | Err: 0
+[17:58:38.850] Cmd: <4999,1039> | Fb: RX ID: 0x80002968Pos: -0.10 deg | Spd: -570 ERPM | Cur: 0.39 A | T: 32C | Err: 0
+[17:58:38.932] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -10.40 deg | Spd: 280 ERPM | Cur: 0.35 A | T: 32C | Err: 0
+[17:58:39.017] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -1.90 deg | Spd: 10 ERPM | Cur: 0.24 A | T: 32C | Err: 0
+[17:58:39.099] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -1.80 deg | Spd: 50 ERPM | Cur: 0.20 A | T: 32C | Err: 0
+[17:58:39.185] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 6.00 deg | Spd: -580 ERPM | Cur: -0.29 A | T: 32C | Err: 0
+[17:58:39.271] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -2.80 deg | Spd: -170 ERPM | Cur: 0.76 A | T: 32C | Err: 0
+[17:58:39.353] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 0 ERPM | Cur: 0.04 A | T: 32C | Err: 0
+[17:58:39.435] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 0 ERPM | Cur: -0.01 A | T: 32C | Err: 0
+[17:58:39.517] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 0 ERPM | Cur: 0.02 A | T: 32C | Err: 0
+[17:58:39.603] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 10 ERPM | Cur: -0.02 A | T: 32C | Err: 0
+[17:58:39.685] Cmd: <-4098,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 0 ERPM | Cur: 0.03 A | T: 32C | Err: 0
+[17:58:39.767] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 0 ERPM | Cur: -0.01 A | T: 32C | Err: 0
+[17:58:39.849] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 0 ERPM | Cur: 0.02 A | T: 32C | Err: 0
+[17:58:39.931] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 0 ERPM | Cur: 0.00 A | T: 32C | Err: 0
+[17:58:40.017] Cmd: <-1470,647> | Fb: RX ID: 0x80002968Pos: -8.90 deg | Spd: 1040 ERPM | Cur: 0.02 A | T: 32C | Err: 0
+[17:58:40.103] Cmd: <4999,1902> | Fb: RX ID: 0x80002968Pos: 7.00 deg | Spd: 900 ERPM | Cur: -1.11 A | T: 32C | Err: 0
+[17:58:40.185] Cmd: <-529,0> | Fb: RX ID: 0x80002968Pos: 8.60 deg | Spd: 190 ERPM | Cur: 0.60 A | T: 32C | Err: 0
+[17:58:40.271] Cmd: <-1862,0> | Fb: RX ID: 0x80002968Pos: 10.40 deg | Spd: 130 ERPM | Cur: 0.42 A | T: 32C | Err: 0
+[17:58:40.353] Cmd: <-2137,568> | Fb: RX ID: 0x80002968Pos: -1.50 deg | Spd: 110 ERPM | Cur: 0.12 A | T: 32C | Err: 0
+[17:58:40.439] Cmd: <-2333,568> | Fb: RX ID: 0x80002968Pos: -7.00 deg | Spd: -880 ERPM | Cur: 0.07 A | T: 32C | Err: 0
+[17:58:40.525] Cmd: <-2960,803> | Fb: RX ID: 0x80002968Pos: 10.20 deg | Spd: -900 ERPM | Cur: 0.89 A | T: 32C | Err: 0
+[17:58:40.611] Cmd: <2764,1823> | Fb: RX ID: 0x80002968Pos: 4.80 deg | Spd: 990 ERPM | Cur: -1.14 A | T: 32C | Err: 0
+[17:58:40.693] Cmd: <4999,2333> | Fb: RX ID: 0x80002968Pos: 0.10 deg | Spd: 360 ERPM | Cur: 0.21 A | T: 32C | Err: 0
+[17:58:40.779] Cmd: <-1156,1039> | Fb: RX ID: 0x80002968Pos: -10.40 deg | Spd: 310 ERPM | Cur: 0.37 A | T: 32C | Err: 0
+[17:58:40.865] Cmd: <-5000,0> | Fb: RX ID: 0x80002968Pos: 2.60 deg | Spd: -390 ERPM | Cur: 0.11 A | T: 32C | Err: 0
+[17:58:40.947] Cmd: <2097,1470> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 490 ERPM | Cur: -1.14 A | T: 32C | Err: 0
+[17:58:41.033] Cmd: <4999,2333> | Fb: RX ID: 0x80002968Pos: 11.00 deg | Spd: -670 ERPM | Cur: -0.51 A | T: 32C | Err: 0
+[17:58:41.119] Cmd: <-2607,529> | Fb: RX ID: 0x80002968Pos: 0.80 deg | Spd: 840 ERPM | Cur: 1.18 A | T: 32C | Err: 0
+[17:58:41.205] Cmd: <0,1039> | Fb: RX ID: 0x80002968Pos: -1.80 deg | Spd: -1260 ERPM | Cur: 0.41 A | T: 32C | Err: 0
+[17:58:41.291] Cmd: <4999,1980> | Fb: RX ID: 0x80002968Pos: 3.20 deg | Spd: 1230 ERPM | Cur: 0.28 A | T: 32C | Err: 0
+[17:58:41.373] Cmd: <4999,2215> | Fb: RX ID: 0x80002968Pos: -8.80 deg | Spd: -460 ERPM | Cur: 0.94 A | T: 32C | Err: 0
+[17:58:41.459] Cmd: <-1431,1117> | Fb: RX ID: 0x80002968Pos: 2.60 deg | Spd: -350 ERPM | Cur: -0.64 A | T: 32C | Err: 0
+[17:58:41.545] Cmd: <-4333,1352> | Fb: RX ID: 0x80002968Pos: -2.30 deg | Spd: -340 ERPM | Cur: 0.49 A | T: 32C | Err: 0
+[17:58:41.631] Cmd: <3862,2254> | Fb: RX ID: 0x80002968Pos: 2.50 deg | Spd: -190 ERPM | Cur: 0.84 A | T: 32C | Err: 0
+[17:58:41.713] Cmd: <4529,2803> | Fb: RX ID: 0x80002968Pos: 0.70 deg | Spd: -140 ERPM | Cur: 0.39 A | T: 32C | Err: 0
+[17:58:41.799] Cmd: <-3431,1392> | Fb: RX ID: 0x80002968Pos: 12.40 deg | Spd: -630 ERPM | Cur: 0.28 A | T: 32C | Err: 0
+[17:58:41.884] Cmd: <-960,1980> | Fb: RX ID: 0x80002968Pos: 3.90 deg | Spd: 510 ERPM | Cur: -1.03 A | T: 32C | Err: 0
+[17:58:41.967] Cmd: <2097,2254> | Fb: RX ID: 0x80002968Pos: -8.20 deg | Spd: 280 ERPM | Cur: 0.72 A | T: 33C | Err: 0
+[17:58:42.052] Cmd: <-3901,1117> | Fb: RX ID: 0x80002968Pos: 1.20 deg | Spd: 1150 ERPM | Cur: 0.20 A | T: 32C | Err: 0
+[17:58:42.134] Cmd: <-3941,1352> | Fb: RX ID: 0x80002968Pos: -5.20 deg | Spd: 990 ERPM | Cur: 0.20 A | T: 32C | Err: 0
+[17:58:42.220] Cmd: <0,1627> | Fb: RX ID: 0x80002968Pos: 9.00 deg | Spd: -760 ERPM | Cur: 0.39 A | T: 32C | Err: 0
+[17:58:42.306] Cmd: <0,1000> | Fb: RX ID: 0x80002968Pos: 6.80 deg | Spd: -900 ERPM | Cur: 0.35 A | T: 33C | Err: 0
+[17:58:42.392] Cmd: <0,803> | Fb: RX ID: 0x80002968Pos: -11.20 deg | Spd: -910 ERPM | Cur: 0.22 A | T: 33C | Err: 0
+[17:58:42.478] Cmd: <0,803> | Fb: RX ID: 0x80002968Pos: -4.00 deg | Spd: 1170 ERPM | Cur: 0.20 A | T: 33C | Err: 0
+[17:58:42.560] Cmd: <0,1000> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: 0 ERPM | Cur: -0.09 A | T: 33C | Err: 0
+[17:58:42.646] Cmd: <0,1117> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: -10 ERPM | Cur: -0.08 A | T: 33C | Err: 0
+[17:58:42.728] Cmd: <0,1392> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: 0 ERPM | Cur: -0.11 A | T: 33C | Err: 0
+[17:58:42.814] Cmd: <2764,1862> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: 0 ERPM | Cur: -0.11 A | T: 33C | Err: 0
+[17:58:42.896] Cmd: <4999,2607> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: 0 ERPM | Cur: -0.08 A | T: 33C | Err: 0
+[17:58:42.978] Cmd: <-1352,1392> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: 0 ERPM | Cur: -0.09 A | T: 33C | Err: 0
+[17:58:43.064] Cmd: <-3549,1588> | Fb: RX ID: 0x80002968Pos: 10.30 deg | Spd: 0 ERPM | Cur: -0.10 A | T: 33C | Err: 0
+[17:58:43.146] Cmd: <-3000,1823> | Fb: RX ID: 0x80002968Pos: 10.70 deg | Spd: 650 ERPM | Cur: 0.38 A | T: 33C | Err: 0
+[17:58:43.232] Cmd: <-1431,1705> | Fb: RX ID: 0x80002968Pos: 1.10 deg | Spd: -560 ERPM | Cur: -1.02 A | T: 33C | Err: 0
+[17:58:43.318] Cmd: <0,2098> | Fb: RX ID: 0x80002968Pos: -9.60 deg | Spd: 750 ERPM | Cur: 0.23 A | T: 33C | Err: 0
+[17:58:43.404] Cmd: <-686,1627> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: 1020 ERPM | Cur: -1.10 A | T: 33C | Err: 0
+[17:58:43.490] Cmd: <0,2254> | Fb: RX ID: 0x80002968Pos: -3.70 deg | Spd: -360 ERPM | Cur: 0.59 A | T: 33C | Err: 0
+[17:58:43.576] Cmd: <0,3313> | Fb: RX ID: 0x80002968Pos: 10.10 deg | Spd: -1170 ERPM | Cur: 0.65 A | T: 33C | Err: 0
+[17:58:43.658] Cmd: <0,3274> | Fb: RX ID: 0x80002968Pos: 6.60 deg | Spd: -50 ERPM | Cur: 0.28 A | T: 33C | Err: 0
+[17:58:43.744] Cmd: <4293,3509> | Fb: RX ID: 0x80002968Pos: 6.10 deg | Spd: -990 ERPM | Cur: -0.58 A | T: 33C | Err: 0
+[17:58:43.830] Cmd: <3784,3313> | Fb: RX ID: 0x80002968Pos: 3.80 deg | Spd: -180 ERPM | Cur: 0.60 A | T: 33C | Err: 0
+[17:58:43.912] Cmd: <-5000,1509> | Fb: RX ID: 0x80002968Pos: 3.80 deg | Spd: 0 ERPM | Cur: -0.23 A | T: 33C | Err: 0
+[17:58:43.994] Cmd: <-5000,1470> | Fb: RX ID: 0x80002968Pos: 3.80 deg | Spd: -10 ERPM | Cur: -0.23 A | T: 33C | Err: 0
+[17:58:44.080] Cmd: <-5000,1352> | Fb: RX ID: 0x80002968Pos: 7.90 deg | Spd: -800 ERPM | Cur: 0.17 A | T: 33C | Err: 0
+[17:58:44.166] Cmd: <-3156,1352> | Fb: RX ID: 0x80002968Pos: 1.60 deg | Spd: 1050 ERPM | Cur: 0.85 A | T: 33C | Err: 0
+[17:58:44.248] Cmd: <-1156,1509> | Fb: RX ID: 0x80002968Pos: 10.40 deg | Spd: 790 ERPM | Cur: 0.05 A | T: 33C | Err: 0
+[17:58:44.334] Cmd: <0,1509> | Fb: RX ID: 0x80002968Pos: -9.00 deg | Spd: 220 ERPM | Cur: 0.29 A | T: 33C | Err: 0
+[17:58:44.416] Cmd: <0,1352> | Fb: RX ID: 0x80002968Pos: -7.10 deg | Spd: 130 ERPM | Cur: 0.39 A | T: 33C | Err: 0
+[17:58:44.502] Cmd: <646,1352> | Fb: RX ID: 0x80002968Pos: 6.60 deg | Spd: 150 ERPM | Cur: -1.09 A | T: 33C | Err: 0
+[17:58:44.588] Cmd: <3352,1705> | Fb: RX ID: 0x80002968Pos: -6.20 deg | Spd: -980 ERPM | Cur: -0.84 A | T: 33C | Err: 0
+[17:58:44.674] Cmd: <4215,1823> | Fb: RX ID: 0x80002968Pos: -9.70 deg | Spd: 160 ERPM | Cur: 0.52 A | T: 33C | Err: 0
+[17:58:44.756] Cmd: <3980,1823> | Fb: RX ID: 0x80002968Pos: -9.80 deg | Spd: 0 ERPM | Cur: 0.00 A | T: 33C | Err: 0
+[17:58:44.838] Cmd: <3980,1823> | Fb: RX ID: 0x80002968Pos: -9.10 deg | Spd: 990 ERPM | Cur: 1.15 A | T: 33C | Err: 0
+[17:58:44.924] Cmd: <3980,1823> | Fb: RX ID: 0x80002968Pos: -2.40 deg | Spd: 420 ERPM | Cur: -0.39 A | T: 33C | Err: 0
+[17:58:45.014] Cmd: <3980,1823> | Fb: RX ID: 0x80002968Pos: -9.90 deg | Spd: -1210 ERPM | Cur: -0.77 A | T: 33C | Err: 0
+[17:58:45.096] Cmd: <3980,1823> | Fb: RX ID: 0x80002968Pos: 0.00 deg | Spd: -1240 ERPM | Cur: 0.28 A | T: 33C | Err: 0
+[17:58:45.182] Cmd: <0,1352> | Fb: RX ID: 0x80002968Pos: -6.70 deg | Spd: -1140 ERPM | Cur: 0.24 A | T: 33C | Err: 0
+[17:58:45.272] Cmd: <-529,882> | Fb: RX ID: 0x80002968Pos: 12.30 deg | Spd: -1110 ERPM | Cur: 0.30 A | T: 33C | Err: 0
+[17:58:45.358] Cmd: <-1156,803> | Fb: RX ID: 0x80002968Pos: -3.80 deg | Spd: -1130 ERPM | Cur: 0.29 A | T: 33C | Err: 0
+[17:58:45.444] Cmd: <-2019,803> | Fb: RX ID: 0x80002968Pos: -10.50 deg | Spd: -1130 ERPM | Cur: 0.39 A | T: 33C | Err: 0
+[17:58:45.530] Cmd: <-2019,803> | Fb: RX ID: 0x80002968Pos: 3.80 deg | Spd: -90 ERPM | Cur: -0.18 A | T: 33C | Err: 0
+[17:58:45.616] Cmd: <-2019,803> | Fb: RX ID: 0x80002968Pos: 2.60 deg | Spd: -640 ERPM | Cur: -0.03 A | T: 33C | Err: 0
+[17:58:45.698] Cmd: <-1823,803> | Fb: RX ID: 0x80002968Pos: 1.10 deg | Spd: -1150 ERPM | Cur: 0.43 A | T: 33C | Err: 0
+[17:58:45.784] Cmd: <0,1039> | Fb: RX ID: 0x80002968Pos: -5.40 deg | Spd: 1020 ERPM | Cur: -0.03 A | T: 33C | Err: 0
+[17:58:45.870] Cmd: <0,1039> | Fb: RX ID: 0x80002968Pos: 10.50 deg | Spd: 540 ERPM | Cur: 0.34 A | T: 33C | Err: 0
+[17:58:45.952] Cmd: <4999,1745> | Fb: RX ID: 0x80002968Pos: 5.70 deg | Spd: 580 ERPM | Cur: 0.45 A | T: 33C | Err: 0
+[17:58:46.038] Cmd: <4999,1823> | Fb: RX ID: 0x80002968Pos: -3.70 deg | Spd: 870 ERPM | Cur: 0.66 A | T: 33C | Err: 0
+[17:58:46.124] Cmd: <4999,1862> | Fb: RX ID: 0x80002968Pos: -9.50 deg | Spd: 350 ERPM | Cur: 0.95 A | T: 33C | Err: 0
+[17:58:46.206] Cmd: <4999,1862> | Fb: RX ID: 0x80002968Pos: -9.50 deg | Spd: 0 ERPM | Cur: -0.15 A | T: 33C | Err: 0
+[17:58:46.292] Cmd: <4999,2098> | Fb: RX ID: 0x80002968Pos: -7.90 deg | Spd: 290 ERPM | Cur: 0.03 A | T: 33C | Err: 0
+[17:58:46.374] Cmd: <-5000,568> | Fb: RX ID: 0x80002968Pos: -9.70 deg | Spd: -180 ERPM | Cur: 0.53 A | T: 33C | Err: 0
+[17:58:46.460] Cmd: <-5000,1235> | Fb: RX ID: 0x80002968Pos: -11.50 deg | Spd: -140 ERPM | Cur: 0.30 A | T: 33C | Err: 0
+[17:58:46.546] Cmd: <-5000,1352> | Fb: RX ID: 0x80002968Pos: 0.40 deg | Spd: -130 ERPM | Cur: 0.33 A | T: 33C | Err: 0
+[17:58:46.632] Cmd: <-5000,1352> | Fb: RX ID: 0x80002968Pos: -1.40 deg | Spd: -120 ERPM | Cur: 0.40 A | T: 33C | Err: 0
+[17:58:46.718] Cmd: <-5000,1392> | Fb: RX ID: 0x80002968Pos: -12.70 deg | Spd: -20 ERPM | Cur: -0.39 A | T: 33C | Err: 0
+[17:58:46.800] Cmd: <4999,1745> | Fb: RX ID: 0x80002968Pos: 0.80 deg | Spd: 260 ERPM | Cur: 0.51 A | T: 33C | Err: 0
+[17:58:46.885] Cmd: <4999,2137> | Fb: RX ID: 0x80002968Pos: 2.60 deg | Spd: 120 ERPM | Cur: 0.43 A | T: 33C | Err: 0
+[17:58:46.967] Cmd: <4999,2215> | Fb: RX ID: 0x80002968Pos: 4.40 deg | Spd: 110 ERPM | Cur: 0.24 A | T: 33C | Err: 0
+[17:58:47.053] Cmd: <3666,2921> | Fb: RX ID: 0x80002968Pos: -7.50 deg | Spd: 140 ERPM | Cur: 0.30 A | T: 33C | Err: 0
+[17:58:47.139] Cmd: <-5000,2490> | Fb: RX ID: 0x80002968Pos: -3.20 deg | Spd: 1160 ERPM | Cur: 0.25 A | T: 33C | Err: 0
+[17:58:47.221] Cmd: <-4686,2960> | Fb: RX ID: 0x80002968Pos: -8.10 deg | Spd: -210 ERPM | Cur: 0.54 A | T: 33C | Err: 0
+[17:58:47.307] Cmd: <4921,2607> | Fb: RX ID: 0x80002968Pos: -9.80 deg | Spd: -140 ERPM | Cur: 0.38 A | T: 33C | Err: 0
+[17:58:47.393] Cmd: <4921,2607> | Fb: RX ID: 0x80002968Pos: 0.90 deg | Spd: 400 ERPM | Cur: -0.52 A | T: 33C | Err: 0
+[17:58:47.479] Cmd: <-5000,2451> | Fb: RX ID: 0x80002968Pos: -12.00 deg | Spd: 1040 ERPM | Cur: 0.26 A | T: 33C | Err: 0
+[17:58:47.561] Cmd: <-5000,2137> | Fb: RX ID: 0x80002968Pos: -9.30 deg | Spd: 500 ERPM | Cur: 0.67 A | T: 33C | Err: 0
+[17:58:47.647] Cmd: <4999,1745> | Fb: RX ID: 0x80002968Pos: 5.40 deg | Spd: 980 ERPM | Cur: -0.10 A | T: 33C | Err: 0
+[17:58:47.733] Cmd: <4999,1902> | Fb: RX ID: 0x80002968Pos: -2.30 deg | Spd: -120 ERPM | Cur: -0.04 A | T: 33C | Err: 0
+[17:58:47.819] Cmd: <-5000,1470> | Fb: RX ID: 0x80002968Pos: 12.10 deg | Spd: 90 ERPM | Cur: -1.16 A | T: 33C | Err: 0
+[17:58:47.901] Cmd: <-5000,1705> | Fb: RX ID: 0x80002968Pos: 0.00 deg | Spd: 240 ERPM | Cur: 0.18 A | T: 33C | Err: 0
+[17:58:47.987] Cmd: <4999,1588> | Fb: RX ID: 0x80002968Pos: 4.30 deg | Spd: 1160 ERPM | Cur: 0.63 A | T: 33C | Err: 0
+[17:58:48.073] Cmd: <2725,1902> | Fb: RX ID: 0x80002968Pos: -0.90 deg | Spd: -240 ERPM | Cur: 0.47 A | T: 33C | Err: 0
+[17:58:48.155] Cmd: <-5000,1392> | Fb: RX ID: 0x80002968Pos: 11.00 deg | Spd: -140 ERPM | Cur: 0.38 A | T: 33C | Err: 0
+[17:58:48.241] Cmd: <568,1352> | Fb: RX ID: 0x80002968Pos: -3.50 deg | Spd: 160 ERPM | Cur: 0.35 A | T: 33C | Err: 0
+[17:58:48.323] Cmd: <4999,1980> | Fb: RX ID: 0x80002968Pos: 3.60 deg | Spd: 320 ERPM | Cur: 0.61 A | T: 33C | Err: 0
+[17:58:48.409] Cmd: <-5000,1509> | Fb: RX ID: 0x80002968Pos: -3.70 deg | Spd: 320 ERPM | Cur: -0.03 A | T: 33C | Err: 0
+[17:58:48.495] Cmd: <-4490,1862> | Fb: RX ID: 0x80002968Pos: 1.60 deg | Spd: 620 ERPM | Cur: 0.64 A | T: 33C | Err: 0
+[17:58:48.577] Cmd: <4999,1745> | Fb: RX ID: 0x80002968Pos: 9.70 deg | Spd: -450 ERPM | Cur: 1.23 A | T: 33C | Err: 0
+[17:58:48.663] Cmd: <2529,2137> | Fb: RX ID: 0x80002968Pos: -5.20 deg | Spd: -480 ERPM | Cur: -0.36 A | T: 33C | Err: 0
+[17:58:48.749] Cmd: <-5000,2019> | Fb: RX ID: 0x80002968Pos: 6.40 deg | Spd: -1030 ERPM | Cur: -0.94 A | T: 33C | Err: 0
+[17:58:48.835] Cmd: <2529,2137> | Fb: RX ID: 0x80002968Pos: -10.90 deg | Spd: 480 ERPM | Cur: -0.03 A | T: 33C | Err: 0
+[17:58:48.921] Cmd: <3980,2607> | Fb: RX ID: 0x80002968Pos: 1.10 deg | Spd: -100 ERPM | Cur: 0.59 A | T: 33C | Err: 0
+[17:58:49.007] Cmd: <-5000,1745> | Fb: RX ID: 0x80002968Pos: -6.20 deg | Spd: 290 ERPM | Cur: -1.04 A | T: 33C | Err: 0
+[17:58:49.093] Cmd: <999,1823> | Fb: RX ID: 0x80002968Pos: -2.00 deg | Spd: -310 ERPM | Cur: 0.19 A | T: 33C | Err: 0
+[17:58:49.175] Cmd: <4372,2803> | Fb: RX ID: 0x80002968Pos: 6.30 deg | Spd: 150 ERPM | Cur: -0.69 A | T: 33C | Err: 0
+[17:58:49.261] Cmd: <-5000,1980> | Fb: RX ID: 0x80002968Pos: -3.80 deg | Spd: 990 ERPM | Cur: 0.08 A | T: 33C | Err: 0
+[17:58:49.347] Cmd: <0,1823> | Fb: RX ID: 0x80002968Pos: 5.00 deg | Spd: -100 ERPM | Cur: -0.58 A | T: 33C | Err: 0
+[17:58:49.433] Cmd: <4999,2686> | Fb: RX ID: 0x80002968Pos: -10.70 deg | Spd: -390 ERPM | Cur: 1.12 A | T: 33C | Err: 0
+[17:58:49.519] Cmd: <-5000,1352> | Fb: RX ID: 0x80002968Pos: 0.10 deg | Spd: -940 ERPM | Cur: 0.75 A | T: 33C | Err: 0
+[17:58:49.605] Cmd: <4490,1862> | Fb: RX ID: 0x80002968Pos: 10.50 deg | Spd: -810 ERPM | Cur: -0.77 A | T: 33C | Err: 0
+[17:58:49.687] Cmd: <3980,2019> | Fb: RX ID: 0x80002968Pos: -3.90 deg | Spd: 1240 ERPM | Cur: 0.33 A | T: 33C | Err: 0
+[17:58:49.773] Cmd: <-5000,1039> | Fb: RX ID: 0x80002968Pos: 2.70 deg | Spd: 550 ERPM | Cur: 1.18 A | T: 33C | Err: 0
+[17:58:49.859] Cmd: <1941,1823> | Fb: RX ID: 0x80002968Pos: -12.30 deg | Spd: 1030 ERPM | Cur: -0.46 A | T: 33C | Err: 0
+[17:58:49.945] Cmd: <4999,2215> | Fb: RX ID: 0x80002968Pos: 2.70 deg | Spd: 280 ERPM | Cur: 0.02 A | T: 33C | Err: 0
+[17:58:50.031] Cmd: <-5000,1156> | Fb: RX ID: 0x80002968Pos: -5.90 deg | Spd: -1070 ERPM | Cur: 0.00 A | T: 33C | Err: 0
+[17:58:50.113] Cmd: <1274,1509> | Fb: RX ID: 0x80002968Pos: 2.10 deg | Spd: 810 ERPM | Cur: -0.24 A | T: 33C | Err: 0
+[17:58:50.199] Cmd: <4999,2215> | Fb: RX ID: 0x80002968Pos: -9.80 deg | Spd: 600 ERPM | Cur: -0.66 A | T: 33C | Err: 0
+[17:58:50.281] Cmd: <-5000,1392> | Fb: RX ID: 0x80002968Pos: 0.60 deg | Spd: 240 ERPM | Cur: 1.27 A | T: 33C | Err: 0
+[17:58:50.367] Cmd: <-3274,2019> | Fb: RX ID: 0x80002968Pos: -9.60 deg | Spd: 480 ERPM | Cur: 0.70 A | T: 33C | Err: 0
+[17:58:50.449] Cmd: <4999,2686> | Fb: RX ID: 0x80002968Pos: 4.20 deg | Spd: 250 ERPM | Cur: 0.05 A | T: 33C | Err: 0
+[17:58:50.535] Cmd: <-2803,2607> | Fb: RX ID: 0x80002968Pos: 10.90 deg | Spd: -360 ERPM | Cur: 0.82 A | T: 33C | Err: 0
+[17:58:50.621] Cmd: <-5000,2254> | Fb: RX ID: 0x80002968Pos: 1.40 deg | Spd: 650 ERPM | Cur: 0.58 A | T: 33C | Err: 0
+[17:58:50.703] Cmd: <3784,2803> | Fb: RX ID: 0x80002968Pos: -10.40 deg | Spd: 20 ERPM | Cur: -0.24 A | T: 33C | Err: 0
+[17:58:50.785] Cmd: <686,3039> | Fb: RX ID: 0x80002968Pos: 2.00 deg | Spd: 50 ERPM | Cur: 0.25 A | T: 33C | Err: 0
+[17:58:50.875] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: -7.50 deg | Spd: -970 ERPM | Cur: -1.16 A | T: 33C | Err: 0
+[17:58:50.957] Cmd: <2254,2137> | Fb: RX ID: 0x80002968Pos: -0.60 deg | Spd: 380 ERPM | Cur: -0.83 A | T: 33C | Err: 0
+[17:58:51.043] Cmd: <4215,2451> | Fb: RX ID: 0x80002968Pos: -11.10 deg | Spd: 210 ERPM | Cur: 0.28 A | T: 33C | Err: 0
+[17:58:51.129] Cmd: <0,2215> | Fb: RX ID: 0x80002968Pos: 0.30 deg | Spd: 860 ERPM | Cur: -0.13 A | T: 33C | Err: 0
+[17:58:51.215] Cmd: <0,1902> | Fb: RX ID: 0x80002968Pos: -5.50 deg | Spd: 520 ERPM | Cur: -1.23 A | T: 33C | Err: 0
+[17:58:51.297] Cmd: <4999,2333> | Fb: RX ID: 0x80002968Pos: 8.60 deg | Spd: 950 ERPM | Cur: -1.11 A | T: 33C | Err: 0
+[17:58:51.383] Cmd: <-686,2254> | Fb: RX ID: 0x80002968Pos: -6.40 deg | Spd: 1150 ERPM | Cur: -0.55 A | T: 33C | Err: 0
+[17:58:51.469] Cmd: <-5000,1902> | Fb: RX ID: 0x80002968Pos: 7.20 deg | Spd: 50 ERPM | Cur: -0.23 A | T: 33C | Err: 0
+[17:58:51.551] Cmd: <1313,1627> | Fb: RX ID: 0x80002968Pos: 7.20 deg | Spd: 0 ERPM | Cur: -0.14 A | T: 33C | Err: 0
+[17:58:51.633] Cmd: <4999,2137> | Fb: RX ID: 0x80002968Pos: 9.70 deg | Spd: 880 ERPM | Cur: 0.24 A | T: 33C | Err: 0
+[17:58:51.719] Cmd: <-1862,2333> | Fb: RX ID: 0x80002968Pos: 0.50 deg | Spd: -1170 ERPM | Cur: -0.40 A | T: 33C | Err: 0
+[17:58:51.805] Cmd: <-4607,3078> | Fb: RX ID: 0x80002968Pos: -1.00 deg | Spd: -800 ERPM | Cur: -0.68 A | T: 33C | Err: 0
+[17:58:51.890] Cmd: <1313,1392> | Fb: RX ID: 0x80002968Pos: 3.40 deg | Spd: 760 ERPM | Cur: 0.08 A | T: 33C | Err: 0
+[17:58:51.977] Cmd: <4999,1392> | Fb: RX ID: 0x80002968Pos: -11.70 deg | Spd: -30 ERPM | Cur: -0.15 A | T: 33C | Err: 0
+[17:58:52.058] Cmd: <0,1862> | Fb: RX ID: 0x80002968Pos: 0.70 deg | Spd: 890 ERPM | Cur: 0.35 A | T: 33C | Err: 0
+[17:58:52.144] Cmd: <0,1823> | Fb: RX ID: 0x80002968Pos: -4.70 deg | Spd: -1170 ERPM | Cur: 0.92 A | T: 33C | Err: 0
+[17:58:52.226] Cmd: <4999,2019> | Fb: RX ID: 0x80002968Pos: 3.30 deg | Spd: 0 ERPM | Cur: -1.02 A | T: 33C | Err: 0
+[17:58:52.312] Cmd: <2215,2725> | Fb: RX ID: 0x80002968Pos: -9.40 deg | Spd: -300 ERPM | Cur: 0.76 A | T: 33C | Err: 0
+[17:58:52.398] Cmd: <-4686,2803> | Fb: RX ID: 0x80002968Pos: 2.10 deg | Spd: -960 ERPM | Cur: -0.73 A | T: 33C | Err: 0
+[17:58:52.480] Cmd: <0,2607> | Fb: RX ID: 0x80002968Pos: 2.30 deg | Spd: 0 ERPM | Cur: 0.29 A | T: 33C | Err: 0
+[17:58:52.566] Cmd: <4999,2137> | Fb: RX ID: 0x80002968Pos: 9.50 deg | Spd: -240 ERPM | Cur: 0.01 A | T: 33C | Err: 0
+[17:58:52.652] Cmd: <-1862,2490> | Fb: RX ID: 0x80002968Pos: -4.40 deg | Spd: -580 ERPM | Cur: -1.04 A | T: 33C | Err: 0
+[17:58:52.734] Cmd: <-5000,2215> | Fb: RX ID: 0x80002968Pos: 2.60 deg | Spd: 1010 ERPM | Cur: 0.68 A | T: 33C | Err: 0
+[17:58:52.820] Cmd: <999,1627> | Fb: RX ID: 0x80002968Pos: 12.30 deg | Spd: 140 ERPM | Cur: 0.56 A | T: 33C | Err: 0
+[17:58:52.902] Cmd: <1823,1705> | Fb: RX ID: 0x80002968Pos: 12.20 deg | Spd: 0 ERPM | Cur: 0.36 A | T: 33C | Err: 0
+[17:58:52.984] Cmd: <-5000,1352> | Fb: RX ID: 0x80002968Pos: 6.70 deg | Spd: -910 ERPM | Cur: 0.28 A | T: 33C | Err: 0
+[17:58:53.070] Cmd: <-1745,1274> | Fb: RX ID: 0x80002968Pos: -6.30 deg | Spd: 350 ERPM | Cur: 0.62 A | T: 33C | Err: 0
+[17:58:53.152] Cmd: <4999,1039> | Fb: RX ID: 0x80002968Pos: 7.40 deg | Spd: 150 ERPM | Cur: 0.24 A | T: 33C | Err: 0
+[17:58:53.242] Cmd: <-2019,1235> | Fb: RX ID: 0x80002968Pos: 10.20 deg | Spd: -380 ERPM | Cur: -1.00 A | T: 33C | Err: 0
+[17:58:53.324] Cmd: <-5000,1588> | Fb: RX ID: 0x80002968Pos: 12.20 deg | Spd: 680 ERPM | Cur: 0.40 A | T: 33C | Err: 0
+[17:58:53.410] Cmd: <3705,0> | Fb: RX ID: 0x80002968Pos: -5.00 deg | Spd: 1030 ERPM | Cur: 1.16 A | T: 33C | Err: 0
+[17:58:53.496] Cmd: <4999,882> | Fb: RX ID: 0x80002968Pos: -8.20 deg | Spd: 290 ERPM | Cur: 0.44 A | T: 33C | Err: 0
+[17:58:53.578] Cmd: <4999,921> | Fb: RX ID: 0x80002968Pos: 10.10 deg | Spd: 510 ERPM | Cur: 1.05 A | T: 33C | Err: 0
+[17:58:53.664] Cmd: <4999,1039> | Fb: RX ID: 0x80002968Pos: -5.50 deg | Spd: 90 ERPM | Cur: 0.16 A | T: 33C | Err: 0
+[17:58:53.746] Cmd: <4999,1039> | Fb: RX ID: 0x80002968Pos: 8.50 deg | Spd: 680 ERPM | Cur: -0.48 A | T: 33C | Err: 0
+[17:58:53.832] Cmd: <4999,1352> | Fb: RX ID: 0x80002968Pos: -2.10 deg | Spd: -570 ERPM | Cur: 1.13 A | T: 34C | Err: 0
+[17:58:53.918] Cmd: <-5000,2137> | Fb: RX ID: 0x80002968Pos: -3.80 deg | Spd: -120 ERPM | Cur: 0.37 A | T: 34C | Err: 0
+[17:58:54.000] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: 8.10 deg | Spd: -110 ERPM | Cur: 0.30 A | T: 34C | Err: 0
+[17:58:54.086] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: 6.30 deg | Spd: -150 ERPM | Cur: 0.29 A | T: 34C | Err: 0
+[17:58:54.172] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: 4.60 deg | Spd: -120 ERPM | Cur: 0.41 A | T: 34C | Err: 0
+[17:58:54.254] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: -9.10 deg | Spd: -110 ERPM | Cur: 0.41 A | T: 34C | Err: 0
+[17:58:54.340] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: 1.90 deg | Spd: 110 ERPM | Cur: 0.16 A | T: 34C | Err: 0
+[17:58:54.422] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: 3.80 deg | Spd: 110 ERPM | Cur: 0.34 A | T: 34C | Err: 0
+[17:58:54.504] Cmd: <-5000,1902> | Fb: RX ID: 0x80002968Pos: 5.60 deg | Spd: 110 ERPM | Cur: 0.31 A | T: 34C | Err: 0
+[17:58:54.590] Cmd: <-3000,1862> | Fb: RX ID: 0x80002968Pos: -6.30 deg | Spd: 130 ERPM | Cur: 0.38 A | T: 34C | Err: 0
+[17:58:54.676] Cmd: <1470,1902> | Fb: RX ID: 0x80002968Pos: -4.50 deg | Spd: 120 ERPM | Cur: 0.18 A | T: 34C | Err: 0
+[17:58:54.758] Cmd: <4999,2215> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 120 ERPM | Cur: 0.34 A | T: 34C | Err: 0
+[17:58:54.844] Cmd: <4999,2215> | Fb: RX ID: 0x80002968Pos: 10.90 deg | Spd: 120 ERPM | Cur: 0.39 A | T: 34C | Err: 0
+[17:58:54.930] Cmd: <4999,2215> | Fb: RX ID: 0x80002968Pos: -10.50 deg | Spd: -860 ERPM | Cur: -0.23 A | T: 34C | Err: 0
+[17:58:55.016] Cmd: <4999,2215> | Fb: RX ID: 0x80002968Pos: 8.70 deg | Spd: 1060 ERPM | Cur: -0.47 A | T: 34C | Err: 0
+[17:58:55.102] Cmd: <4215,2372> | Fb: RX ID: 0x80002968Pos: 12.40 deg | Spd: -870 ERPM | Cur: 1.03 A | T: 34C | Err: 0
+[17:58:55.188] Cmd: <-4960,2333> | Fb: RX ID: 0x80002968Pos: 10.80 deg | Spd: -130 ERPM | Cur: 0.37 A | T: 34C | Err: 0
+[17:58:55.270] Cmd: <-5000,2019> | Fb: RX ID: 0x80002968Pos: 9.00 deg | Spd: -110 ERPM | Cur: 0.24 A | T: 34C | Err: 0
+[17:58:55.356] Cmd: <-5000,2019> | Fb: RX ID: 0x80002968Pos: 7.20 deg | Spd: -130 ERPM | Cur: 0.32 A | T: 34C | Err: 0
+[17:58:55.442] Cmd: <-5000,1980> | Fb: RX ID: 0x80002968Pos: -7.20 deg | Spd: 1240 ERPM | Cur: 0.09 A | T: 34C | Err: 0
+[17:58:55.524] Cmd: <-5000,1862> | Fb: RX ID: 0x80002968Pos: 7.10 deg | Spd: 920 ERPM | Cur: 0.99 A | T: 34C | Err: 0
+[17:58:55.605] Cmd: <568,1705> | Fb: RX ID: 0x80002968Pos: 9.10 deg | Spd: 110 ERPM | Cur: 0.24 A | T: 34C | Err: 0
+[17:58:55.691] Cmd: <4999,1627> | Fb: RX ID: 0x80002968Pos: -2.70 deg | Spd: 110 ERPM | Cur: 0.37 A | T: 34C | Err: 0
+[17:58:55.778] Cmd: <4999,1627> | Fb: RX ID: 0x80002968Pos: -0.90 deg | Spd: 120 ERPM | Cur: 0.37 A | T: 34C | Err: 0
+[17:58:55.859] Cmd: <4999,1627> | Fb: RX ID: 0x80002968Pos: 0.80 deg | Spd: 130 ERPM | Cur: 0.29 A | T: 34C | Err: 0
+[17:58:55.945] Cmd: <3980,1980> | Fb: RX ID: 0x80002968Pos: -10.40 deg | Spd: -1060 ERPM | Cur: 0.14 A | T: 34C | Err: 0
+[17:58:56.031] Cmd: <-5000,1823> | Fb: RX ID: 0x80002968Pos: -3.60 deg | Spd: 250 ERPM | Cur: -0.41 A | T: 34C | Err: 0
+[17:58:56.117] Cmd: <-5000,1705> | Fb: RX ID: 0x80002968Pos: -5.50 deg | Spd: -120 ERPM | Cur: 0.18 A | T: 34C | Err: 0
+[17:58:56.203] Cmd: <-5000,1705> | Fb: RX ID: 0x80002968Pos: 6.40 deg | Spd: -110 ERPM | Cur: 0.26 A | T: 34C | Err: 0
+[17:58:56.289] Cmd: <646,1274> | Fb: RX ID: 0x80002968Pos: 3.60 deg | Spd: -1210 ERPM | Cur: 0.66 A | T: 34C | Err: 0
+[17:58:56.371] Cmd: <4999,1117> | Fb: RX ID: 0x80002968Pos: -10.10 deg | Spd: -40 ERPM | Cur: 0.21 A | T: 34C | Err: 0
+[17:58:56.457] Cmd: <4999,921> | Fb: RX ID: 0x80002968Pos: -8.30 deg | Spd: 150 ERPM | Cur: 0.35 A | T: 34C | Err: 0
+[17:58:56.539] Cmd: <0,1627> | Fb: RX ID: 0x80002968Pos: 5.40 deg | Spd: 140 ERPM | Cur: 0.43 A | T: 34C | Err: 0
+[17:58:56.625] Cmd: <-5000,1274> | Fb: RX ID: 0x80002968Pos: 12.30 deg | Spd: 110 ERPM | Cur: 0.35 A | T: 34C | Err: 0
+[17:58:56.711] Cmd: <-5000,1274> | Fb: RX ID: 0x80002968Pos: -1.90 deg | Spd: -360 ERPM | Cur: -1.03 A | T: 34C | Err: 0
+[17:58:56.797] Cmd: <-1431,1470> | Fb: RX ID: 0x80002968Pos: 10.10 deg | Spd: -210 ERPM | Cur: 0.67 A | T: 34C | Err: 0
+[17:58:56.879] Cmd: <4999,1352> | Fb: RX ID: 0x80002968Pos: 4.40 deg | Spd: 730 ERPM | Cur: 0.60 A | T: 34C | Err: 0
+[17:58:56.965] Cmd: <4999,1392> | Fb: RX ID: 0x80002968Pos: -3.40 deg | Spd: 570 ERPM | Cur: -1.08 A | T: 34C | Err: 0
+[17:58:57.051] Cmd: <0,1705> | Fb: RX ID: 0x80002968Pos: 10.20 deg | Spd: 260 ERPM | Cur: 0.37 A | T: 34C | Err: 0
+[17:58:57.137] Cmd: <-5000,1039> | Fb: RX ID: 0x80002968Pos: -10.70 deg | Spd: -1140 ERPM | Cur: -1.00 A | T: 34C | Err: 0
+[17:58:57.223] Cmd: <-5000,1039> | Fb: RX ID: 0x80002968Pos: -9.80 deg | Spd: 80 ERPM | Cur: -0.08 A | T: 34C | Err: 0
+[17:58:57.309] Cmd: <-4568,1509> | Fb: RX ID: 0x80002968Pos: -11.60 deg | Spd: -130 ERPM | Cur: 0.18 A | T: 34C | Err: 0
+[17:58:57.395] Cmd: <4999,1000> | Fb: RX ID: 0x80002968Pos: -1.10 deg | Spd: -130 ERPM | Cur: 0.04 A | T: 34C | Err: 0
+[17:58:57.477] Cmd: <4999,1470> | Fb: RX ID: 0x80002968Pos: -5.70 deg | Spd: 190 ERPM | Cur: 1.15 A | T: 34C | Err: 0
+[17:58:57.563] Cmd: <4999,1588> | Fb: RX ID: 0x80002968Pos: -4.00 deg | Spd: 80 ERPM | Cur: 0.11 A | T: 34C | Err: 0
+[17:58:57.645] Cmd: <-2686,1705> | Fb: RX ID: 0x80002968Pos: 9.80 deg | Spd: 320 ERPM | Cur: -0.35 A | T: 34C | Err: 0
+[17:58:57.731] Cmd: <-5000,1352> | Fb: RX ID: 0x80002968Pos: -8.10 deg | Spd: -370 ERPM | Cur: -1.18 A | T: 34C | Err: 0
+[17:58:57.817] Cmd: <-4490,1509> | Fb: RX ID: 0x80002968Pos: -11.30 deg | Spd: -80 ERPM | Cur: 0.12 A | T: 34C | Err: 0
+[17:58:57.903] Cmd: <2019,1705> | Fb: RX ID: 0x80002968Pos: 0.60 deg | Spd: -120 ERPM | Cur: 0.37 A | T: 34C | Err: 0
+[17:58:57.989] Cmd: <4999,1902> | Fb: RX ID: 0x80002968Pos: -3.50 deg | Spd: -1050 ERPM | Cur: 0.61 A | T: 34C | Err: 0
+[17:58:58.075] Cmd: <1941,1902> | Fb: RX ID: 0x80002968Pos: 6.70 deg | Spd: -140 ERPM | Cur: -0.32 A | T: 34C | Err: 0
+[17:58:58.157] Cmd: <-5000,1274> | Fb: RX ID: 0x80002968Pos: 9.90 deg | Spd: 670 ERPM | Cur: 0.35 A | T: 34C | Err: 0
+[17:58:58.239] Cmd: <-5000,1117> | Fb: RX ID: 0x80002968Pos: 0.20 deg | Spd: 50 ERPM | Cur: 0.68 A | T: 34C | Err: 0
+[17:58:58.325] Cmd: <-2960,1352> | Fb: RX ID: 0x80002968Pos: 12.50 deg | Spd: -380 ERPM | Cur: 0.36 A | T: 34C | Err: 0
+[17:58:58.411] Cmd: <4999,882> | Fb: RX ID: 0x80002968Pos: 4.30 deg | Spd: -730 ERPM | Cur: 0.79 A | T: 34C | Err: 0
+[17:58:58.493] Cmd: <4999,921> | Fb: RX ID: 0x80002968Pos: 8.20 deg | Spd: 250 ERPM | Cur: -1.14 A | T: 34C | Err: 0
+[17:58:58.579] Cmd: <0,1000> | Fb: RX ID: 0x80002968Pos: 11.50 deg | Spd: 180 ERPM | Cur: 0.55 A | T: 34C | Err: 0
+[17:58:58.665] Cmd: <-5000,1392> | Fb: RX ID: 0x80002968Pos: -8.30 deg | Spd: -640 ERPM | Cur: -0.14 A | T: 34C | Err: 0
+[17:58:58.751] Cmd: <1117,921> | Fb: RX ID: 0x80002968Pos: 10.60 deg | Spd: 160 ERPM | Cur: 0.18 A | T: 34C | Err: 0
+[17:58:58.833] Cmd: <4999,1823> | Fb: RX ID: 0x80002968Pos: 5.60 deg | Spd: -210 ERPM | Cur: 0.38 A | T: 34C | Err: 0
+[17:58:58.919] Cmd: <4293,1823> | Fb: RX ID: 0x80002968Pos: -3.20 deg | Spd: -250 ERPM | Cur: 1.10 A | T: 34C | Err: 0
+[17:58:59.005] Cmd: <-5000,803> | Fb: RX ID: 0x80002968Pos: -3.00 deg | Spd: -10 ERPM | Cur: -1.04 A | T: 34C | Err: 0
+[17:58:59.087] Cmd: <-3627,1235> | Fb: RX ID: 0x80002968Pos: 2.10 deg | Spd: 950 ERPM | Cur: 0.40 A | T: 34C | Err: 0
+[17:58:59.173] Cmd: <4999,1274> | Fb: RX ID: 0x80002968Pos: 12.20 deg | Spd: -110 ERPM | Cur: 0.13 A | T: 34C | Err: 0
+[17:58:59.259] Cmd: <4999,1627> | Fb: RX ID: 0x80002968Pos: 8.60 deg | Spd: -850 ERPM | Cur: 0.18 A | T: 34C | Err: 0
+[17:58:59.345] Cmd: <-5000,1235> | Fb: RX ID: 0x80002968Pos: -8.10 deg | Spd: -740 ERPM | Cur: 0.13 A | T: 34C | Err: 0
+[17:58:59.431] Cmd: <-5000,1274> | Fb: RX ID: 0x80002968Pos: -0.80 deg | Spd: 1190 ERPM | Cur: -1.01 A | T: 34C | Err: 0
+[17:58:59.517] Cmd: <4490,0> | Fb: RX ID: 0x80002968Pos: -7.30 deg | Spd: -640 ERPM | Cur: 0.22 A | T: 34C | Err: 0
+[17:58:59.599] Cmd: <4999,1509> | Fb: RX ID: 0x80002968Pos: 4.80 deg | Spd: -60 ERPM | Cur: 0.18 A | T: 34C | Err: 0
+[17:58:59.685] Cmd: <-1196,1470> | Fb: RX ID: 0x80002968Pos: 0.00 deg | Spd: 1040 ERPM | Cur: -0.14 A | T: 34C | Err: 0
+[17:58:59.767] Cmd: <0,1000> | Fb: RX ID: 0x80002968Pos: 4.40 deg | Spd: 230 ERPM | Cur: 0.67 A | T: 34C | Err: 0
+[17:58:59.853] Cmd: <4999,1156> | Fb: RX ID: 0x80002968Pos: -7.50 deg | Spd: 130 ERPM | Cur: -0.36 A | T: 34C | Err: 0
+[17:58:59.935] Cmd: <4999,1392> | Fb: RX ID: 0x80002968Pos: 7.20 deg | Spd: -150 ERPM | Cur: 0.00 A | T: 34C | Err: 0
+[17:59:00.025] Cmd: <-1823,1627> | Fb: RX ID: 0x80002968Pos: -1.80 deg | Spd: 1040 ERPM | Cur: -0.63 A | T: 34C | Err: 0
+[17:59:00.107] Cmd: <-5000,1745> | Fb: RX ID: 0x80002968Pos: -4.50 deg | Spd: -20 ERPM | Cur: 0.33 A | T: 34C | Err: 0
+[17:59:00.193] Cmd: <0,1823> | Fb: RX ID: 0x80002968Pos: -3.10 deg | Spd: 40 ERPM | Cur: -0.11 A | T: 34C | Err: 0
+[17:59:00.279] Cmd: <0,1745> | Fb: RX ID: 0x80002968Pos: -5.00 deg | Spd: -190 ERPM | Cur: 0.48 A | T: 34C | Err: 0
+[17:59:00.361] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 8.20 deg | Spd: 550 ERPM | Cur: 0.73 A | T: 34C | Err: 0
+[17:59:00.447] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 3.40 deg | Spd: -670 ERPM | Cur: 0.13 A | T: 34C | Err: 0
+[17:59:00.529] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.00 deg | Spd: -500 ERPM | Cur: -1.18 A | T: 34C | Err: 0
+[17:59:00.615] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.21 A | T: 34C | Err: 0
+[17:59:00.696] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 34C | Err: 0
+[17:59:00.778] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 34C | Err: 0
+[17:59:00.860] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.21 A | T: 34C | Err: 0
+[17:59:00.942] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 10 ERPM | Cur: -0.18 A | T: 34C | Err: 0
+[17:59:01.024] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.20 A | T: 34C | Err: 0
+[17:59:01.106] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 34C | Err: 0
+[17:59:01.188] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 34C | Err: 0
+[17:59:01.270] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 34C | Err: 0
+[17:59:01.356] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.15 A | T: 34C | Err: 0
+[17:59:01.438] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 34C | Err: 0
+[17:59:01.520] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 34C | Err: 0
+[17:59:01.602] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: -10 ERPM | Cur: -0.24 A | T: 34C | Err: 0
+[17:59:01.684] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 34C | Err: 0
+[17:59:01.765] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.24 A | T: 34C | Err: 0
+[17:59:01.851] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.17 A | T: 34C | Err: 0
+[17:59:01.933] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.16 A | T: 34C | Err: 0
+[17:59:02.015] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.20 A | T: 34C | Err: 0
+[17:59:02.098] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.23 A | T: 34C | Err: 0
+[17:59:02.179] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 34C | Err: 0
+[17:59:02.262] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.21 A | T: 34C | Err: 0
+[17:59:02.343] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 34C | Err: 0
+[17:59:02.425] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 34C | Err: 0
+[17:59:02.507] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.19 A | T: 34C | Err: 0
+[17:59:02.589] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.20 A | T: 34C | Err: 0
+[17:59:02.671] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.22 A | T: 34C | Err: 0
+[17:59:02.757] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: 0 ERPM | Cur: -0.18 A | T: 34C | Err: 0
+[17:59:02.809] Cmd: <0,0> | Fb: its gonee...
+[17:59:02.862] Cmd: <0,0> | Fb: RX ID: 0x80002968Pos: 9.20 deg | Spd: -10 ERPM | Cur: -0.16 A | T: 34C | Err: 0
+[17:59:02.914] Cmd: <0,0> | Fb: its gonee...
+[17:59:02.967] Cmd: <0,0> | Fb: RX ID: 0x80002900Pos: 5.10 deg | Spd: -10 ERPM | Cur: 0.00 A | T: 28C | Err: 0
+[17:59:03.019] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.071] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.123] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.175] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.227] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.279] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.331] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.383] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.434] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.486] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.538] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.590] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.642] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.693] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.745] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.797] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.849] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.901] Cmd: <0,0> | Fb: its gonee...
+[17:59:03.953] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.005] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.057] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.109] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.160] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.212] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.264] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.316] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.368] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.420] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.471] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.523] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.575] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.627] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.678] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.730] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.782] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.834] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.886] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.938] Cmd: <0,0> | Fb: its gonee...
+[17:59:04.990] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.041] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.093] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.145] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.197] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.249] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.301] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.353] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.404] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.456] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.508] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.559] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.611] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.664] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.716] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.767] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.819] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.871] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.922] Cmd: <0,0> | Fb: its gonee...
+[17:59:05.974] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.026] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.078] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.129] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.181] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.232] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.283] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.334] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.386] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.437] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.489] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.541] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.593] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.645] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.697] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.749] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.801] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.853] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.905] Cmd: <0,0> | Fb: its gonee...
+[17:59:06.957] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.009] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.061] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.113] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.165] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.217] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.269] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.321] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.373] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.424] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.475] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.527] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.578] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.630] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.682] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.734] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.786] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.837] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.890] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.941] Cmd: <0,0> | Fb: its gonee...
+[17:59:07.993] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.045] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.097] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.149] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.201] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.253] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.306] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.357] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.409] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.461] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.513] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.565] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.617] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.669] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.721] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.773] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.825] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.877] Cmd: <0,0> | Fb: its gonee...
+[17:59:08.929] Cmd: <0,0> | Fb: its gonee...
+[17:59:58.681] Cmd: <0,0> | Fb: its gonee...
+[18:01:38.469] Cmd: <0,0> | Fb: its gonee...
+[18:02:53.512] Cmd: <0,0> | Fb: its gonee...
+[18:03:50.882] Cmd: <0,0> | Fb: its gonee...
+[18:05:26.029] Cmd: <0,0> | Fb: its gonee...
+[18:06:10.976] Cmd: <0,0> | Fb: its gonee...
+[18:07:14.911] Cmd: <0,0> | Fb: its gonee...
+[18:07:54.302] Cmd: <0,0> | Fb: its gonee...
+[18:09:36.113] Cmd: <0,0> | Fb: its gonee...
+[18:10:55.298] Cmd: <0,0> | Fb: its gonee...
+[18:11:54.485] Cmd: <0,0> | Fb: its gonee...
+[18:13:17.508] Cmd: <0,0> | Fb: its gonee...
+[18:14:07.402] Cmd: <0,0> | Fb: its gonee...
+[18:15:04.266] Cmd: <0,0> | Fb: its gonee...
+[18:16:18.703] Cmd: <0,0> | Fb: its gonee...
+[18:17:35.262] Cmd: <0,0> | Fb: its gonee...
+[18:18:41.721] Cmd: <0,0> | Fb: its gonee...
+[18:20:09.995] Cmd: <0,0> | Fb: its gonee...
+[18:21:12.112] Cmd: <0,0> | Fb: its gonee...
+[18:21:56.654] Cmd: <0,0> | Fb: its gonee...

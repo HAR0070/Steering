@@ -4,7 +4,7 @@ import time
 import sys
 import datetime
 
-ARDUINO_PORT = "COM7"
+ARDUINO_PORT = "/dev/ttyACM0"
 BAUD_RATE = 9600
 
 DEADZONE = 0.1
@@ -98,7 +98,7 @@ def main_loop(filename, controller, arduino_serial):
                                 log_entry = f"[{timestamp}] Cmd: <{vel_x},{vel_y}> | Fb: {line}"
                                 
                                 # 1. Print to Console (One line)
-                                print(f"{log_entry}          ", end='\r', flush=True)
+                                print(f"{log_entry}          ", end='\n', flush=True)
                                 
                                 # 2. Write to File
                                 log_file.write(log_entry + "\n")
