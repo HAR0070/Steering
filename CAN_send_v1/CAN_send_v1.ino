@@ -12,6 +12,7 @@ int bufferIndex = 0;                   // Current position in the buffer
 bool newDataAvailable = false;
 long vel_x = 0;
 long vel_y = 0;
+int con_id = 104;
 
 void setup() {
     Serial.begin(9600);
@@ -36,8 +37,8 @@ void setup() {
 
 void loop() {
 
-    get_command();
-    send_rpm_command(104, vel_x); 
+    // get_command();
+    // send_rpm_command(con_id, vel_x); 
 
     // --- PART B: READ FEEDBACK ---
     // Check if the motor is sending us status data (Temp, Error Codes, etc.)
@@ -61,9 +62,9 @@ void loop() {
         // Data[7]: Error Code
         
         if (len >= 8) {
-            int8_t pos = (rxBuf[0] << 8) | rxBuf[1] ;
-            int8_t Speed = (rxBuf[2] << 8) | rxBuf[3] ;
-            int8_t curr = (rxBuf[4] << 8) | rxBuf[5] ;
+            int16_t pos = (rxBuf[0] << 8) | rxBuf[1] ;
+            int16_t Speed = (rxBuf[2] << 8) | rxBuf[3] ;
+            int16_t curr = (rxBuf[4] << 8) | rxBuf[5] ;
             int8_t temp = rxBuf[6];
             int8_t error = rxBuf[7];
 
@@ -71,7 +72,7 @@ void loop() {
             Serial.print(pos * 0.1); 
             
             // Speed (Scale: 10 ERPM) [cite: 992]
-            Serial.print(" rad | Spd: "); 
+            Serial.print(" deg | Spd: "); 
             Serial.print(Speed * 10); 
             
             // Current (Scale: 0.01 A) [cite: 993]
@@ -95,7 +96,7 @@ void loop() {
         }
     }
     
-    delay(10);  // 20 Hz
+    delay(2);  // 50 Hz
 }
 
 void send_rpm_command(uint8_t controller_id, long rpm) {
@@ -112,7 +113,6 @@ void send_rpm_command(uint8_t controller_id, long rpm) {
 
     if (send_ok != CAN_OK) Serial.println("its gonee... ");
 }
-
 
 void get_command() {
   // --- Step 1: Check for new serial data ---
