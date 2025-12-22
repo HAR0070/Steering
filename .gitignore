@@ -1,0 +1,9 @@
+
+# Ros bag files 
+*.bag
+*.bag.active
+*.db3
+
+# venv files 
+**/.venv/ 
+**/venv/
