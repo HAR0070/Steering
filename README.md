@@ -5,6 +5,8 @@ Velocity is command is send to arduino -> CAN -> AK80-8 motor controller
 
 The feedback and commands are published as ROS1 topics 
 
+Once overtaken -- or while not commanded -- the CAN command to steer is stoped -- we dont command 0 position
+
 # Testing 
 Collect rosbag using rqt_bag 
 check topics which are published using rqt 
