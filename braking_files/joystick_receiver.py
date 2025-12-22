@@ -4,7 +4,7 @@ import time
 import sys
 import datetime
 
-ARDUINO_PORT = "COM7"
+ARDUINO_PORT = "COM7"  # for windows 
 BAUD_RATE = 115200
 
 DEADZONE = 0.1
@@ -43,7 +43,7 @@ def connect_to_arduino(port, baud):
 def map_axis_to_brake(axis_value, inverted=False):
     """Converts a joystick axis (-1.0 to 1.0) to a velocity (-100 to 100)."""
     # Apply deadzone
-    range = 4.5 
+    range = 5
 
     if abs(axis_value) < DEADZONE:
         axis_value = 0.0
@@ -73,46 +73,43 @@ def main_loop( controller, arduino_serial = None , filename=None):
             # brake_1 = map_axis_to_brake(axis_x)
             brake_2 = map_axis_to_brake(axis_y)
 
-            message = f"<{brake_2},{0}>            \r"
+            message = f"<{brake_2},{0}>\n"
+            # Send the message as bytes
+            try:
+                # start_time = time.time()
+                arduino_serial.write(message.encode('utf-8'))
+                # end_time = time.time() # Record end time
+                # elapsed_time = end_time - start_time
+                print(f"Sent: X={brake_2} Y={0}  (Raw: {message.strip()}) ", end='\r')
+            except serial.SerialException as e:
+                print(f"\n Serial write error: {e}")
+                raise
+            except Exception as e:
+                print(f"\n Serial write error: {e}")
+                raise 
 
-            print(message)
-            
-            # # Send the message as bytes
-            # try:
-            #     start_time = time.time()
-            #     arduino_serial.write(message.encode('utf-8'))
-            #     end_time = time.time() # Record end time
-            #     elapsed_time = end_time - start_time
-            #     # print(f"Sent: X={vel_x} Y={vel_y}  (Raw: {message.strip()})  elapsed_time : {elapsed_time}", end='\r')
-            # except serial.SerialException as e:
-            #     print(f"\n Serial write error: {e}")
-            #     raise
-            # except Exception as e:
-            #     print(f"\n Serial write error: {e}")
-            #     raise 
-
-            # # to read what the Arduino sends back, otherwise the buffer fills up and crashes the connection.
-            # with open(filename, "a") as log_file:
-            #     try:
-            #         if arduino_serial.in_waiting > 0:
-            #             # Read all available bytes and throw them away (or print them for debug)
-            #             line = arduino_serial.readline().decode('utf-8', errors='ignore').strip()
-            #             if line:
-            #                     # Get timestamp
-            #                     timestamp = datetime.datetime.now().strftime("%H:%M:%S.%f")[:-3]
+            # to read what the Arduino sends back, otherwise the buffer fills up and crashes the connection.
+            with open(filename, "a") as log_file:
+                try:
+                    while arduino_serial.in_waiting > 0:
+                        # Read all available bytes and throw them away (or print them for debug)
+                        line = arduino_serial.readline().decode('utf-8', errors='ignore').strip()
+                        if line:
+                                # Get timestamp
+                                timestamp = datetime.datetime.now().strftime("%H:%M:%S.%f")[:-3]
                                 
-            #                     # Format log entry
-            #                     log_entry = f"[{timestamp}] Cmd: <{vel_x},{vel_y}> | Fb: {line}"
+                                # Format log entry
+                                log_entry = f"[{timestamp}] Cmd: <{brake_2},{0}> | Fb: {line}"
                                 
-            #                     # 1. Print to Console (One line)
-            #                     print(f"{log_entry}          ", end='\r', flush=True)
+                                # 1. Print to Console (One line)
+                                print(f"{log_entry}          ", end='\r', flush=True)
                                 
-            #                     # 2. Write to File
-            #                     log_file.write(log_entry + "\n")
-            #                     # Force write to disk immediately (safer if script crashes)
-            #                     log_file.flush() 
-            #     except Exception as e:
-            #         pass
+                                # 2. Write to File
+                                log_file.write(log_entry + "\n")
+                                # Force write to disk immediately (safer if script crashes)
+                                log_file.flush() 
+                except Exception as e:
+                    pass
                 
             # Don't spam the Arduino, send at a fixed rate
             time.sleep(SEND_INTERVAL)
@@ -123,22 +120,21 @@ def main_loop( controller, arduino_serial = None , filename=None):
         print("\nExiting program.")
     finally:
         # Clean up
-        # if arduino_serial and arduino_serial.is_open:
-        #     # Send a "stop" command before closing
-        #     # arduino_serial.write(b"<0,0>\n")
-        #     arduino_serial.close()
+        if arduino_serial and arduino_serial.is_open:
+            # Send a "stop" command before closing
+            # arduino_serial.write(b"<0,0>\n")
+            arduino_serial.close()
         pygame.joystick.quit()
         pygame.quit()
         print("Connections closed.")
 
 if __name__ == "__main__":
     controller = find_controller()
-    # filename = input("Entre log file name  ")
+    filename = input("Entre log file name  ")
     if controller:
-        # arduino_serial = connect_to_arduino(ARDUINO_PORT, BAUD_RATE)
-        # if arduino_serial:
-        if True:
-            main_loop(controller)
+        arduino_serial = connect_to_arduino(ARDUINO_PORT, BAUD_RATE)
+        if arduino_serial:
+            main_loop(controller, arduino_serial=arduino_serial , filename=filename )
 
         else:
             print("Could not connect to Arduino. Exiting.")
