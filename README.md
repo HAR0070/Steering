@@ -5,6 +5,11 @@ Velocity is command is send to arduino -> CAN -> AK80-8 motor controller
 
 The feedback and commands are published as ROS1 topics 
 
+The steering data collection stage 1 is sucessfull - model is perfectly fit and test data is visibily distinguishable 
+<img width="1212" height="374" alt="image" src="https://github.com/user-attachments/assets/363c33bf-2589-4775-87ea-05c4abbe07a4" />
+
+test_success.ipynb has the final data augmentation and results 
+
 # Testing 
 Collect rosbag using rqt_bag 
 check topics which are published using rqt 
