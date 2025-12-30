@@ -4,6 +4,11 @@
 *.bag.active
 *.db3
 
+
+# Data file 
+*.csv
+
+
 # venv files 
 **/.venv/ 
 **/venv/
