@@ -14,11 +14,12 @@ BAUD_RATE = 9600
 DEADZONE = 0.1
 SEND_INTERVAL = 0.05 
 
-KP = 10
+KP = 50
 KD = 0.5
 KI = 0.5
-SPD_REF = 4000
+SPD_REF = 6000
 CUR_LIM = 2.5
+EXTREME_POS = 650
 
 def find_controller():
     """Initializes pygame and finds the first available joystick."""
@@ -82,6 +83,13 @@ def pid_pos_vel(ref_pos , pos_fb , speed_fb , curr_fb , integral_err):
         velocity = -SPD_REF
         integral_err -= pos_err
         
+    if pos_fb > EXTREME_POS:
+        velocity = 0
+        integral_err -= 0
+    elif -pos_fb > EXTREME_POS:
+        velocity = 0
+        integral_err -= 0
+
     if curr_fb > CUR_LIM:
         print(f"your hitting current limit {curr_fb}")
         velocity *=0.5
@@ -110,7 +118,7 @@ def map_axis_to_position(axis_value, inverted=False):
         axis_value = 0.0
         
     # Map the value from [-1.0, 1.0] to [-520, 520]
-    position = int(axis_value * 3100)
+    position = int(axis_value * 600)
 
     if inverted:
         position = -position
