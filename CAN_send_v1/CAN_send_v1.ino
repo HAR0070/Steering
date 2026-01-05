@@ -11,11 +11,11 @@ char serialBuffer[SERIAL_BUFFER_SIZE]; // The buffer to store incoming data
 int bufferIndex = 0;                   // Current position in the buffer
 bool newDataAvailable = false;
 long vel_x = 0;
-long vel_y = 0;
+long err_cmd = 1;
 int con_id = 104;
 
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(115200);
 
     while (!Serial) {
       delay(50); // wait
@@ -37,8 +37,12 @@ void setup() {
 
 void loop() {
 
-    // get_command();
-    // send_rpm_command(con_id, vel_x); 
+     get_command();
+     
+     if (err_cmd == 0){
+      send_rpm_command(con_id, vel_x); 
+     }
+     
 
     // --- PART B: READ FEEDBACK ---
     // Check if the motor is sending us status data (Temp, Error Codes, etc.)
@@ -128,7 +132,7 @@ void get_command() {
       if (comma != NULL) {
         
         vel_x = strtol(startMarker + 1, NULL, 10);
-        vel_y = strtol(comma + 1, NULL, 10);
+        err_cmd = strtol(comma + 1, NULL, 10);
 
       } else {
         Serial.println("Error: Packet received, but no comma found.");
