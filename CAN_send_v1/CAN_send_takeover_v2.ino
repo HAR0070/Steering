@@ -15,7 +15,7 @@ long err_cmd = 0;
 int con_id = 104;
 
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(115200);
 
     while (!Serial) {
       delay(50); // wait
