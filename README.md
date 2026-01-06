@@ -31,4 +31,4 @@ Fine Tuning braking
 Curtis controller 
 
 # To Do 
-Once overtaken -- or while not commanded -- the CAN command to steer is stoped -- we dont command 0 position
+Should do better feature selection and pruning for the ML model
