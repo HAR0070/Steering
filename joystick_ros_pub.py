@@ -9,15 +9,15 @@ from std_msgs.msg import Float32MultiArray
 
 
 ARDUINO_PORT = "/dev/ttyACM0"
-BAUD_RATE = 9600
+BAUD_RATE = 115200
 
-DEADZONE = 0.1
+DEADZONE = 0.05
 SEND_INTERVAL = 0.05 
 
-KP = 50
-KD = 0.5
-KI = 0.5
-SPD_REF = 6000
+KP = 10      #  on car value = 50
+KD = 1      #   0.5
+KI = 0.1     #   0.5
+SPD_REF = 3000      #6000
 CUR_LIM = 2.5
 EXTREME_POS = 650
 
@@ -84,10 +84,10 @@ def pid_pos_vel(ref_pos , pos_fb , speed_fb , curr_fb , integral_err):
         integral_err -= pos_err
         
     if pos_fb > EXTREME_POS:
-        velocity = 0
+        # velocity = 0
         integral_err -= 0
     elif -pos_fb > EXTREME_POS:
-        velocity = 0
+        # velocity = 0
         integral_err -= 0
 
     if curr_fb > CUR_LIM:
@@ -141,32 +141,32 @@ def main_loop( controller, arduino_serial , filename=None):
             pygame.event.pump()
 
             axis_x = controller.get_axis(0)
-            # axis_y = controller.get_axis(1)
+            axis_y = controller.get_button(7)
 
             pos_x = map_axis_to_position(axis_x)
-            # pos_y = map_axis_to_position(axis_y, inverted=True)
+            pos_y = map_axis_to_position(axis_y)
 
             try:
-                if arduino_serial.in_waiting > 0:
+                while arduino_serial.in_waiting > 0:
                     # Read all available bytes and throw them away (or print them for debug)
                     line = arduino_serial.readline().decode('utf-8', errors='ignore').strip()
-                    if line:  
-                        msg = to_msg(line)
-                        pos_fb = msg.data[0]
-                        speed_fb = msg.data[1]
-                        curr_fb = msg.data[2]
-                        pub_motor_fb.publish(msg)
-                        if msg.data[-1] != 100:
-                            vel_x , integral_err = pid_pos_vel(pos_x , pos_fb , speed_fb, curr_fb , integral_err)
-                            # print(f"vel_x = {vel_x}  pos_ref = {pos_x} pos_fb = {pos_fb}")
-            
-                            message = f"<{vel_x},{pos_x}>\n"
+                    # print(line)
+                if line:  
+                    msg = to_msg(line)
+                    pos_fb = msg.data[0]
+                    speed_fb = msg.data[1]
+                    curr_fb = msg.data[2]
+                    pub_motor_fb.publish(msg)
+                    if msg.data[-1] != 100:
+                        vel_x , integral_err = pid_pos_vel(pos_x , pos_fb , speed_fb, curr_fb , integral_err)
+        
+                        message = f"<{vel_x},{pos_y}>\n"
 
-                            # start_time = time.time()
-                            arduino_serial.write(message.encode('utf-8'))
-                            msg = to_twist(vel_x)
+                        # start_time = time.time()
+                        arduino_serial.write(message.encode('utf-8'))
+                        msg = to_twist(vel_x)
 
-                            pub_steering.publish(msg)
+                        pub_steering.publish(msg)
             except IndexError:
                 pass
             
