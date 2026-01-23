@@ -9,10 +9,13 @@ from std_msgs.msg import Float32MultiArray
 
 
 ARDUINO_PORT = "/dev/ttyACM0"
-BAUD_RATE = 9600
+BAUD_RATE = 115200
 
 DEADZONE = 0.1
 SEND_INTERVAL = 0.05 
+
+TEST_ARDUINO = True         # If you want to test arduino functionality
+THRESHOLD_TAKEOVER = False  # Make sure u set the correct current limit
 
 KP = 10
 KD = 0.5
@@ -39,9 +42,9 @@ def find_controller():
 
 def to_twist(x , y=None):
     msg = Twist() 
-    msg.linear.x = x
+    msg.linear.x = float(x)
     if y:
-        msg.linear.y = y
+        msg.linear.y = float(y)
     
     return msg
 
@@ -88,7 +91,7 @@ def pid_pos_vel(ref_pos , pos_fb , speed_fb , curr_fb , integral_err):
 
     print(f" vel = {velocity} pos_err = {pos_err} spd_err = {spd_err} pos_fb = {pos_fb}  pos_ref = {ref_pos} spd_fb = {speed_fb}  \r")
 
-    return velocity , integral_err
+    return velocity , integral_err , curr_fb > CUR_LIM
 
 def connect_to_arduino(port, baud):
     """Tries to connect to the Arduino over serial."""
@@ -120,6 +123,7 @@ def map_axis_to_position(axis_value, inverted=False):
 def main_loop( controller, arduino_serial , filename=None):
     """The main application loop."""
     print("Reading from Left Analog Stick (X/Y)...")
+        
     try:
         pub_steering = rospy.Publisher('/steering_pub' , Twist , queue_size=10)
         pub_motor_fb = rospy.Publisher('/motor_feedback', Float32MultiArray, queue_size=10)
@@ -133,32 +137,35 @@ def main_loop( controller, arduino_serial , filename=None):
             pygame.event.pump()
 
             axis_x = controller.get_axis(0)
-            # axis_y = controller.get_axis(1)
+            axis_y = controller.get_button(7)         # check this axis 
 
             pos_x = map_axis_to_position(axis_x)
-            # pos_y = map_axis_to_position(axis_y, inverted=True)
+            pos_y = map_axis_to_position(axis_y)
 
             try:
-                if arduino_serial.in_waiting > 0:
+                while arduino_serial.in_waiting > 0:
                     # Read all available bytes and throw them away (or print them for debug)
                     line = arduino_serial.readline().decode('utf-8', errors='ignore').strip()
-                    if line:  
-                        msg = to_msg(line)
-                        pos_fb = msg.data[0]
-                        speed_fb = msg.data[1]
-                        curr_fb = msg.data[2]
-                        pub_motor_fb.publish(msg)
-                        if msg.data[-1] != 100:
-                            vel_x , integral_err = pid_pos_vel(pos_x , pos_fb , speed_fb, curr_fb , integral_err)
-                            # print(f"vel_x = {vel_x}  pos_ref = {pos_x} pos_fb = {pos_fb}")
-            
-                            message = f"<{vel_x},{pos_x}>\n"
+                if line:  
+                    msg = to_msg(line)
+                    pos_fb = msg.data[0]
+                    speed_fb = msg.data[1]
+                    curr_fb = msg.data[2]
+                    pub_motor_fb.publish(msg)
+                    if msg.data[-1] != 100:
+                        vel_x , integral_err , takeover  = pid_pos_vel(pos_x , pos_fb , speed_fb, curr_fb , integral_err)
+                        # print(f"vel_x = {vel_x}  pos_ref = {pos_x} pos_fb = {pos_fb}")
+        
+                        if THRESHOLD_TAKEOVER and takeover:
+                            message = f"<{vel_x},{1}>\n"    
+                        
+                        else:
+                            message = f"<{vel_x},{0}>\n"        # Joystick only operation 
 
-                            # start_time = time.time()
-                            arduino_serial.write(message.encode('utf-8'))
-                            msg = to_twist(vel_x)
+                        arduino_serial.write(message.encode('utf-8'))
+                        msg = to_twist(vel_x)
 
-                            pub_steering.publish(msg)
+                        pub_steering.publish(msg)
             except IndexError:
                 pass
             
