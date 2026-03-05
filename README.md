@@ -1,7 +1,7 @@
 ## Objective 
 In emergency driving situations, a driver’s immediate instinct is typically to regain control of the vehicle through steering. Motivated by this natural response, this work aims to develop a steering-based full takeover mechanism that enables the driver to promptly assume control of the vehicle during critical events.
 
-Details on the steering modifications done can be found [here] (https://har0070.github.io/har.github.io/posts/autonomy/#steering-setup)
+Details on the steering modifications done can be found [here](https://har0070.github.io/har.github.io/posts/autonomy/#steering-setup)
 
 ## Steering controller -  works on arduino and MCP2515 can controller with 8MHz crystal and 1Mbps 
 Arduino code is present in CAN_send_v1 folder 
